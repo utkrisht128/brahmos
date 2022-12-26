@@ -1,0 +1,63 @@
+.Dmid{
+    width: 99%;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+.Dmid .Dmid-boxes{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin: 10px 10px;
+    padding: 40px 5px;
+}
+.Dmid .Dmid-boxes .Dmid-box{
+    /* border: 2px solid blueviolet; */
+    margin: 10px 10px;
+    padding: 10px 5px;
+    height: 370px;
+    width: 465px;
+}
+.Dmid .Dmid-boxes .Dmid-box img{
+    height: 300px;
+    width: 465px;
+}
+.Dmid .Dmid-boxes .Dmid-box .Dtext{
+    text-align: center;
+    /* align-items: center; */
+}
+.Dmid .Dmid-boxes .Dmid-box a{
+    text-decoration: none;
+}
+.Dmid .Dmid-boxes .Dmid-box:hover img{ 
+    opacity: 0.2;
+}
+.Dmid .Dmid-boxes .Dmid-box:hover .Dtext{
+    opacity: 3.0;
+    transform: translateY(-200px);
+    transition: transform 550ms ease-in-out;
+}
+
+
+@media (min-width: 390px) and (max-width:600px){
+    .Dmid{
+        width: 400px;
+        height: 1250px;
+        /* border: 2px solid red; */
+    }
+    .Dmid .Dmid-boxes{
+        /* border: 2px solid blue; */
+        display: block;
+        margin: 10px 10px;
+        padding: 40px 5px;
+    }
+    .Dmid .Dmid-boxes .Dmid-box{
+        /* border: 2px solid blueviolet; */
+        margin: 0px 0px;
+        padding: 10px 5px;
+        height: 350px;
+        width: 340px;
+    }
+    .Dmid .Dmid-boxes .Dmid-box img{
+        height: 260px;
+        width: 320px;
+    }
+}

@@ -1,0 +1,23 @@
+section{
+    display: grid;
+}
+div{
+    display: grid
+    /* align-items: center; */
+    /* text-align: center; */
+    /* border: 2px solid red; */
+}
+a{
+    font-size: 20px;
+}
+h1{
+    /* text-align: center; */
+    font-size: 40px;
+}
+/* .maths{
+    display:flex;
+}
+.math-unit{
+    border: 2px solid red;
+    margin: 10px 10px;
+} */

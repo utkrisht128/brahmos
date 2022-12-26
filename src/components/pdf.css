@@ -1,0 +1,39 @@
+.mid-box{
+    /* border: 2px solid blueviolet; */
+    margin: 10px 10px;
+    padding: 10px 5px;
+    height: 200px;
+    width: 200px;
+}
+.mid-box img{
+    height: 200px;
+    width: 200px;
+}
+.mid-box .text{
+    text-align: center;
+    /* align-items: center; */
+}
+.mid-box a{
+    text-decoration: none;
+}
+.mid-box:hover img{ 
+    opacity: 0.2;
+}
+.mid-box:hover .text{
+    opacity: 3.0;
+    transform: translateY(-130px);
+    transition: transform 550ms ease-in-out;
+}
+@media (min-width: 390px) and (max-width:600px){
+    .mid-box{
+        /* border: 2px solid blueviolet; */
+        margin: 30px 10px;
+        padding: 30px 10px;
+        height: 200px;
+        width: 200px;
+    }
+    .mid-box .text{
+        margin: 30px 2px;
+    }
+}
+

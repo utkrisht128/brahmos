@@ -1,0 +1,10 @@
+.box-1{
+    display: flex;
+    margin: 10px 2px;
+    padding: 10px 2px;
+    margin-left: 88px;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}

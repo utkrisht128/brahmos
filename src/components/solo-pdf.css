@@ -1,0 +1,12 @@
+.solo-pdf {
+    display: flex;
+    border: 9px solid rgba(0, 0, 0, 0.3);
+    height: 600px;
+    width: 510px;
+}
+.solo-pdf .solo-pdf-box {
+    display: flex;
+    border: 2px solid red;
+    height: 600px;
+    width: 510px;
+}
