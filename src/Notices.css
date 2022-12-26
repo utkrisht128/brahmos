@@ -1,0 +1,14 @@
+.container2{
+    /* border: 2px solid blue; */
+    height: 620px;
+}
+.tile{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 2px 2px;
+    padding: 2px 18px;
+    height: 60px;
+}
+h1{
+    font-size: 25px;
+}

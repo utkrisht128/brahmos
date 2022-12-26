@@ -23,6 +23,7 @@ import icon19 from "../Images/icon19.jpg";
 import icon20 from "../Images/iconx.jpg";
 import { Link } from "react-router-dom";
 import "./Notes.css";
+import Footer from "./Footer";
 export default function Notes() {
   return (
     <>
@@ -116,6 +117,7 @@ export default function Notes() {
           name1={"Mechanical Engineering"}
         />
       </section>
+      <Footer/>
     </>
   );
 }

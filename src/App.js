@@ -5,6 +5,7 @@ import icon4 from "./Images/icon4.jpg";
 import Boxes from "./components/Boxes";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -37,6 +38,7 @@ function App() {
           name3={"Electrical Engineering"}
         />
       </section>
+      <Footer/>
     </>
   );
 }

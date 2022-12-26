@@ -126,10 +126,80 @@ body {
     }
     
 }
-@media (min-width:500px) and (max-width:1200px) {
+@media (min-width:500px) and (max-width:810px) {
     .navbar {
         display: block;
-        width: 100%;    
+        width: 800px;
+        border: 2px solid black;    
+    }
+    .openMenu{
+        right: 5%;
+    }
+    
+    .navbarinside .linkhidden {
+        height: 50vh;
+        position: fixed;
+        top: 60px;
+        left: -105%;
+        gap: 60px;
+        font-size: 30px;
+        width: 100%;
+        z-index: 101;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: white;
+        transition: 0.3s;
+    }
+    .navbarinside .linkvisible{
+        height: 50vh;
+        position: fixed;
+        top: 60px;
+        left: -15%;
+        gap: 60px;
+        font-size: 30px;
+        width: 100%;
+        z-index: 101;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: white;
+        transition: 0.3s;
+    }
+    nav .openMenu {
+        display: block;
+        z-index: 102;
+    }
+
+    .bar.clicked:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bar.clicked:nth-child(1) {
+        transform: rotate(45deg) translateY(14px);
+    }
+
+    .bar.clicked:nth-child(3) {
+        transform: rotate(-45deg) translateY(-14px);
+    }
+
+    .bar.unclicked {
+        transform: rotate(0) translate(0);
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+    }
+    .navbarinside .link{
+        display: none;
+    }
+    
+}
+@media (min-width:810px) and (max-width:1200px) {
+    .navbar {
+        display: block;
+        width: 1150px;
+        border: 2px solid black;    
+    }
+    .openMenu{
+        right: 5%;
     }
     
     .navbarinside .linkhidden {
