@@ -63,7 +63,7 @@ export default function Notes() {
           link1={"/ee"}
           name1={"Electrical Engineering"}
           link2={"/ecam"}
-          name2={"Electrical and Communication Engineering(AI and ML"}
+          name2={"Electrical and Communication Engineering(AI and ML)"}
           link3={"/eiot"}
           name3={"Electrical and Communication Engineering(Internet of Things)"}
         />

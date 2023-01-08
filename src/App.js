@@ -24,7 +24,7 @@ function App() {
       </section>
       <section className="mid-app">
         <div className="mid-text">
-          <h1>Favorites of Student</h1>
+          <h1>Favourites of Student</h1>
         </div>
         <Boxes
           img2={icon2}

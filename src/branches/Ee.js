@@ -50,7 +50,7 @@ export default function Ee() {
         name1={"English"}
         link2={"/Chemistry-me"}
         name2={"Chemistry"}
-        link3={"/Electrical&ElectronicsMeasurements-ice"}
+        link3={"/ElectricalMeasurements-ice"}
         name3={"Electrical & Electronics Measurements"}
       />
 

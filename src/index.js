@@ -27,6 +27,11 @@ import CivilEngineering from "./branches/CivilEngineering";
 import BioTechnology from "./branches/BioTechnology";
 import Physics from "./branches/me-sub/Physics";
 import Maths from "./branches/me-sub/Maths";
+import Maths2 from "./branches/me-sub/Maths2";
+import DataS from "./branches/cse-sub/DataS";
+import SS from "./branches/ice-sub/SS"
+import EDC from "./branches/ice-sub/EDC"
+import ElectricalM from "./branches/ice-sub/ElectricalM"
 import Chemistry from "./branches/me-sub/Chemistry";
 import EEE from "./branches/me-sub/EEE";
 import Cp from "./branches/me-sub/Cp";
@@ -65,6 +70,7 @@ root.render(
           <Route path="/Bio-Technology" element={<BioTechnology />} />
           <Route path="/Physics-me" element={<Physics />} />
           <Route path="/Maths-me" element={<Maths />} />
+          <Route path="/Maths2-me" element={<Maths2 />} />
           <Route path="/Chemistry-me" element={<Chemistry />} />
           <Route path="/EEE-me" element={<EEE />} />
           <Route path="/Cp-me" element={<Cp />} />
@@ -74,6 +80,10 @@ root.render(
           <Route path="/Metallurgy-me" element={<Metallurgy />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/notices" element={<Notices />} />
+          <Route path="/DataStructure-cse" element={<DataS />} />
+          <Route path="/ElectronicDevicesandCircuits-ice" element={<EDC />} />
+          <Route path="/ElectricalMeasurements-ice" element={<ElectricalM />} />
+          <Route path="/Signal&Systems-ice" element={<SS />} />
         </Routes>
     </BrowserRouter>
 );

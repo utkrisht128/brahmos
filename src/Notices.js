@@ -8,7 +8,7 @@ function Notices() {
     <Navbar/>
     <div className="container2">
       <div className="tile">
-      <h1>Mid Semester Examination will be from 9th January to 13th January. All the best juniors</h1>
+      <h1 className="headline">Mid Semester Examination will be from 9th January to 13th January. All the best juniors</h1>
       </div>
     </div>
     <Footer/>
