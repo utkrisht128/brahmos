@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import Pdf from "../../components/Pdf";
 import Img from "../../Images/pdf.png";
-export default function Physics() {
+export default function Bme() {
   return (
     <>
       <Navbar />

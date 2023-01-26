@@ -29,9 +29,17 @@ import Physics from "./branches/me-sub/Physics";
 import Maths from "./branches/me-sub/Maths";
 import Maths2 from "./branches/me-sub/Maths2";
 import DataS from "./branches/cse-sub/DataS";
+import Digital from "./branches/cse-sub/Digital";
+import Discrete from "./branches/cse-sub/Discrete";
+import CAO from "./branches/cse-sub/CAO";
+import DAA from "./branches/cse-sub/DAA";
+import DBMS from "./branches/cse-sub/DBMS";
+import MicroM from "./branches/cse-sub/MicroM";
+import WebTech from "./branches/cse-sub/WebTech";
 import SS from "./branches/ice-sub/SS"
 import EDC from "./branches/ice-sub/EDC"
 import ElectricalM from "./branches/ice-sub/ElectricalM"
+import DigitalCS from "./branches/ice-sub/DigitalCS"
 import Chemistry from "./branches/me-sub/Chemistry";
 import EEE from "./branches/me-sub/EEE";
 import Cp from "./branches/me-sub/Cp";
@@ -39,6 +47,15 @@ import English from "./branches/me-sub/English";
 import Bme from "./branches/me-sub/Bme";
 import EngMe from "./branches/me-sub/EngME";
 import Metallurgy from "./branches/me-sub/Metallurgy";
+import Fluid from "./branches/me-sub/Fluid";
+import Manufac from "./branches/me-sub/Manufac";
+import SOM from "./branches/me-sub/SOM";
+import Thermal from "./branches/me-sub/Thermal";
+import NMC from "./branches/me-sub/NMC";
+import ProbabilityT from "./branches/ece-sub/ProbablityT";
+import ACAS from "./branches/ece-sub/ACAS";
+import CompGraphics from "./branches/it-sub/CompGraphics";
+import AppPhysics from "./branches/mac-sub/AppPhysics";
 import Videos from "./Videos";
 import Notices from "./Notices"
 import reportWebVitals from "./reportWebVitals";
@@ -84,6 +101,25 @@ root.render(
           <Route path="/ElectronicDevicesandCircuits-ice" element={<EDC />} />
           <Route path="/ElectricalMeasurements-ice" element={<ElectricalM />} />
           <Route path="/Signal&Systems-ice" element={<SS />} />
+          <Route path="/AppliedPhysics-mac" element={<AppPhysics />} />
+          <Route path="/ComputerGraphics-it" element={<CompGraphics />} />
+          <Route path="/FluidMechanicsandMachines-me" element={<Fluid />} />
+          <Route path="/NumericalMethodsandComputation-me" element={<NMC />} />
+          <Route path="/ManufacturingProcessesI-me" element={<Manufac />} />
+          <Route path="/StrengthofMaterials-me" element={<SOM />} />
+          <Route path="/ThermalEngineeringI-me" element={<Thermal />} />
+          <Route path="/DigitalCircuitsandSystems-ice" element={<DigitalCS />} />
+          <Route path="/ProbabilityTheoryandStochasticProcess-ece" element={<ProbabilityT />} />
+          <Route path="/ActiveCircuitAnalysisandSynthesis-ece" element={<ACAS />} />
+          <Route path="/DiscreteStructure-cse" element={<Discrete />} />
+          <Route path="/DigitalLogicalDesign-cse" element={<Digital />} />
+          <Route path="/DatabaseManagementSystems-cse" element={<DBMS />} />
+          <Route path="/DatabaseManagementSystems-cse" element={<DBMS />} />
+          <Route path="/DesignandAnalysisofAlgorithms-cse" element={<DAA />} />
+          <Route path="/ComputerArchitectureandOrganization-cse" element={<CAO />} />
+          <Route path="/MicroprocessorsandMicrocontrollers-cse" element={<MicroM />} />
+          <Route path="/WebTechnology-cse" element={<WebTech />} />
+          <Route path="/ElectronicsDevices&Circuits-ice" element={<EDC />} />
         </Routes>
     </BrowserRouter>
 );

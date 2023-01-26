@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Boxes from "../components/Boxes";
-import DuoBox from "../components/Duo-box"
+import DuoBox from "../components/Duo-box";
+import SoloBox from "../components/Solo-box";
 import Physics from "../Images/physics.jpg";
 import Maths from "../Images/Maths.jpg";
 import Bme from "../Images/Bme.jpg";
@@ -13,49 +13,220 @@ import English from "../Images/english.jpg";
 import MechanicalS from "../Images/MechanicalS.png";
 import Metallurgy from "../Images/metallurgy.jpg";
 import icon2 from "../Images/icon2.jpg";
-import "./branchesCss/mpae.css"
+import NMC from "../Images/NumericalMethodsandComputation.jpg";
+import Manufacturing from "../Images/ManufacturingProcesses.jpg";
+import SOM from "../Images/Strengthofmaterials.jpg";
+import TOM from "../Images/TheoryofMachines.jpg";
+import IndustrialMang from "../Images/IndustrialEngineering&Management.jpg";
+import ControlSys from "../Images/ControlSystems.jpg";
+import MechanicalD from "../Images/MechanicalDesign.jpg";
+import Modeling from "../Images/ModelingandSimulation.jpg";
+import CompositeM from "../Images/CompositeMaterials.jpg";
+import Robotics from "../Images/Robotics.jpg";
+import AIME from "../Images/ArtificialIntelligenceinMechanicalEngineering.jpg";
+import CADM from "../Images/ComputerAidedDesign&Manufacturing.jpg";
+import CAPP from "../Images/ComputerAidedProcessPlanning.jpg";
+import Mechatronics from "../Images/Mechatronics.jpg";
+import Solar from "../Images/SolarEnergyTechnology.jpg";
+import IndustrialWM from "../Images/IndustrialWasteManagement.jpg";
+import MicroRobotics from "../Images/Microrobotics.jpg";
+import Reverse from "../Images/ReverseEngineering.jpg";
+import Laser from "../Images/LaserMaterialsProcessing.jpg";
+import FluidP from "../Images/FluidPowerEngineering.jpg";
+import Lubrication from "../Images/Industriallubrication&Tribology.jpg";
+import EMM from "../Images/EngineeringMetrology&Measurements.jpg";
+import AddManufac from "../Images/AdditiveManufacturing.jpg";
+import RoboAuto from "../Images/RoboticsandAutomation.jpg";
+import Project from "../Images/ProjectManagement.jpg";
+import OptTech from "../Images/OptimizationTechniques.jpg";
+import MM from "../Images/MicroprocessorsandMicrocontrollers.jpg";
+import AppliedPlas from "../Images/AppliedPlasticity.jpg";
+import Tools from "../Images/ToolsDesign.jpg";
+import CIM from "../Images/ComputerIntegratedManufacturing.jpg";
+import WorkSE from "../Images/WorksStudyandErgonomics.jpg";
+import "./branchesCss/mpae.css";
 export default function Mpae() {
   return (
     <>
       <Navbar />
       <h1 id="heading">Manufacturing Processes and Automation Engineering</h1>
-      <Boxes
-        img2={Physics}
-        img3={Maths}
-        img4={Bme}
-        link1={"/Physics-me"}
-        name1={"Physics"}
-        link2={"/Maths-me"}
-        name2={"Maths"}
-        link3={"/Bme-me"}
-        name3={"Basic of Mechanical Engineering"}
-      />
-      <Boxes
-        img2={EEE}
-        img3={Cp}
-        img4={Maths}
-        link1={"/EEE-me"}
-        name1={"Electrical and Electronics Engineering"}
-        link2={"/Cp-me"}
-        name2={"Computer Programming"}
-        link3={"/Maths2-me"}
-        name3={"Maths-2"}
-      />
+      <h1>Semester 1</h1>
       <Boxes
         img2={English}
-        img3={Chemistry}
-        img4={Bme}
+        img3={Maths}
+        img4={Chemistry}
         link1={"/English-me"}
         name1={"English"}
-        link2={"/Chemistry-me"}
-        name2={"Chemistry"}
-        link3={"/EngMe-me"}
-        name3={"Engineering Mechanics"}
+        link2={"/Maths-me"}
+        name2={"Maths"}
+        link3={"/Chemistry-me"}
+        name3={"Chemistry"}
       />
-
-      <DuoBox img1={Metallurgy} link1={"/Metallurgy-me"} name1={"Engineering Materials & Metallurgy"}
-      img2={MechanicalS} link2={"/MechanicalSciences-mpae"} name2={"Mechanical Sciences"}/>
-
+      <DuoBox
+        img1={EEE}
+        link1={"/EEE-me"}
+        name1={"Electrical and Electronics Engineering"}
+        img2={Bme}
+        link2={"/Bme-me"}
+        name2={"Basic of Mechanical Engineering"}
+      />
+      <h1>Semester 2</h1>
+      <Boxes
+        img2={Cp}
+        img3={Maths}
+        img4={Physics}
+        link1={"/Cp-me"}
+        name1={"Computer Programming"}
+        link2={"/Maths2-me"}
+        name2={"Maths-2"}
+        link3={"/Physics-me"}
+        name3={"Physics"}
+      />
+      <Boxes
+        img2={Bme}
+        img3={MechanicalS}
+        img4={Metallurgy}
+        link1={"/EngMe-me"}
+        name1={"Engineering Mechanics"}
+        link2={"/MechanicalSciences-mpae"}
+        name2={"Mechanical Sciences"}
+        link3={"/Metallurgy-me"}
+        name3={"Metals and Metallurgy"}
+      />
+      <h1>Semester 3</h1>
+      <Boxes
+        img2={NMC}
+        img3={Manufacturing}
+        img4={SOM}
+        link1={"/NumericalMethodsandComputation-me"}
+        name1={"Numerical Methods and Computation"}
+        link2={"/ManufacturingProcessesI-me"}
+        name2={"Manufacturing Processes - I"}
+        link3={"/StrengthofMaterials-me"}
+        name3={"Strength of materials"}
+      />
+      <SoloBox
+        img1={MM}
+        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        name1={"Microprocessor and Microcontroller"}
+      />
+      <h1>Semester 4</h1>
+      <Boxes
+        img2={IndustrialMang}
+        img3={ControlSys}
+        img4={TOM}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Industrial Engineering & Management"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Control Systems"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Theory of Machines"}
+      />
+      <DuoBox
+        img1={Manufacturing}
+        link1={"/EEE-me"}
+        name1={"Manufacturing Processes-II"}
+        img2={AppliedPlas}
+        link2={"/Bme-me"}
+        name2={"Applied Plasticity"}
+      />
+      <h1>Semester 5</h1>
+      <Boxes
+        img2={MechanicalD}
+        img3={Modeling}
+        img4={CompositeM}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Mechanical Design"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Modeling and Simulation"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Composite Materials"}
+      />
+      <Boxes
+        img2={CADM}
+        img3={Tools}
+        img4={Robotics}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"CAD & Product Design"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Tool Design"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Robotics"}
+      />
+      <h1>Semester 6</h1>
+      <Boxes
+        img2={CIM}
+        img3={Mechatronics}
+        img4={AIME}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Computer Integrated Manufacturing(CIM)"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Mechatronics"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Artificial Intelligence in Mechanical Engineering"}
+      />
+      <h1>Semester 6(Electives)</h1>
+      <Boxes
+        img2={CAPP}
+        img3={Solar}
+        img4={IndustrialWM}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Computer Aided Process Planning(CAPP)"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Solar Energy Technology"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Industrial Waste Management"}
+      />
+      <SoloBox
+        img1={MicroRobotics}
+        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        name1={"Microrobotics"}
+      />
+      <h1>Semester 7</h1>
+      <Boxes
+        img2={Reverse}
+        img3={MechanicalD}
+        img4={WorkSE}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Reverse Engineering"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Design for Manufacture"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Works Study and Ergonomics"}
+      />
+      <SoloBox
+        img1={Laser}
+        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        name1={"Laser Materials Processing"}
+      />
+      <h1>Semester 8</h1>
+      <Boxes
+        img2={FluidP}
+        img3={EMM}
+        img4={Lubrication}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Fluid Power Engineering"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Engineering Metrology & Measurements"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Industrial lubrication & Tribology"}
+      />
+      <Boxes
+        img2={AddManufac}
+        img3={RoboAuto}
+        img4={OptTech}
+        link1={"/ManufacturingProcessesI-me"}
+        name1={"Additive Manufacturing"}
+        link2={"/StrengthofMaterials-me"}
+        name2={"Robotics and Automation"}
+        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        name3={"Optimization Techniques"}
+      />
+      <SoloBox
+        img1={Project}
+        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        name1={"Project Management"}
+      />
     </>
   );
 }

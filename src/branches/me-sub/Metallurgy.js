@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import "./physics.css";
 import Pdf from "../../components/Pdf";
 import Img from "../../Images/pdf.png";
-export default function Physics() {
+export default function Metallurgy() {
   return (
     <>
       <Navbar />

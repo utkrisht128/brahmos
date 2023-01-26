@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Pdf from "../../components/Pdf";
 import Img from "../../Images/pdf.png";
-export default function Maths() {
+export default function Maths2() {
     return(
         <>
         <Navbar />
