@@ -25,8 +25,6 @@ export default function English() {
       <Pdf name={"English-12"} link={"https://drive.google.com/file/d/1Csn3sJRJ0VDSg55-bgVMh43PeclS34-P/view?usp=sharing"} img={Img} /> 
       </div>
       <div className="box-1">
-      </div>
-      <div className="box-1">
       <Pdf name={"English-13"} link={"https://drive.google.com/file/d/1Yr6FfgJ_iOO0uunja8MulNXMbdCaivqW/view?usp=sharing"} img={Img} /> 
       <Pdf name={"English-14"} link={"https://drive.google.com/file/d/1b-riBXrSKDmnNCuhMusMSmRdzFebNSAZ/view?usp=sharing"} img={Img} /> 
       <Pdf name={"English-15"} link={"https://drive.google.com/file/d/1flVlObBzLDzdJicKwYlxgn2wdJ_D7yxB/view?usp=sharing"} img={Img} /> 

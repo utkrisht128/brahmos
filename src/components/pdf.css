@@ -24,7 +24,43 @@
     transform: translateY(-130px);
     transition: transform 550ms ease-in-out;
 }
+@media (min-width: 200px) and (max-width:390px){
+    .mid-box{
+        /* border: 2px solid blueviolet; */
+        margin: 30px 10px;
+        padding: 30px 10px;
+        height: 200px;
+        width: 200px;
+    }
+    .mid-box .text{
+        margin: 30px 2px;
+    }
+}
 @media (min-width: 390px) and (max-width:600px){
+    .mid-box{
+        /* border: 2px solid blueviolet; */
+        margin: 30px 10px;
+        padding: 30px 10px;
+        height: 200px;
+        width: 200px;
+    }
+    .mid-box .text{
+        margin: 30px 2px;
+    }
+}
+@media (min-width: 600px) and (max-width:810px){
+    .mid-box{
+        /* border: 2px solid blueviolet; */
+        margin: 30px 10px;
+        padding: 30px 10px;
+        height: 200px;
+        width: 200px;
+    }
+    .mid-box .text{
+        margin: 30px 2px;
+    }
+}
+@media (min-width: 810px) and (max-width:1200px){
     .mid-box{
         /* border: 2px solid blueviolet; */
         margin: 30px 10px;
