@@ -48,7 +48,7 @@ export default function Eiot() {
     <>
       <Navbar />
       <h1 id="heading">Electronics and Communication Engineering(AI and ML)</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -68,7 +68,7 @@ export default function Eiot() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -91,7 +91,7 @@ export default function Eiot() {
         link3={"/DataStructure-cse"}
         name3={"Data Structures and Algorithms"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={OptPrinciple}
         img3={SignalS}
@@ -114,7 +114,7 @@ export default function Eiot() {
         link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
         name3={"Microelectronics"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={ControlSys}
         img3={ElectroMag}
@@ -134,7 +134,7 @@ export default function Eiot() {
         link2={"/IntelligentComputing"}
         name2={"Microprocessor and computer architecture"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={IotSystemArch}
         img3={DSPAA}
@@ -157,7 +157,7 @@ export default function Eiot() {
         link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
         name3={"Database Management System"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={Cloud}
         img3={IotWorkshop}
@@ -177,7 +177,7 @@ export default function Eiot() {
         link2={"/IntelligentComputing"}
         name2={"Operating Systems"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={MultimediaC}
         img3={CongnitiveR}

@@ -46,7 +46,7 @@ export default function Itns() {
     <>
       <Navbar />
       <h1 id="heading">Information Technology(Network and Information Security)</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -66,7 +66,7 @@ export default function Itns() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -89,7 +89,7 @@ export default function Itns() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={DBMS}
         img3={CompGraphics}
@@ -109,7 +109,7 @@ export default function Itns() {
         link2={"/OptimizationPrinciplesandTechniques"}
         name2={"Optimization Principles and Techniques"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={DAA}
@@ -129,7 +129,7 @@ export default function Itns() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Analog and Digital Communication"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={TOC}
         img3={AI}
@@ -152,7 +152,7 @@ export default function Itns() {
         link3={"/ProbabilityTheoryandStochasticProcess-ece"}
         name3={"Mobile Computing"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={InformationS}
         img3={NND}
@@ -172,7 +172,7 @@ export default function Itns() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Digital Forensics"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={CyberS}
         img3={HadoopS}

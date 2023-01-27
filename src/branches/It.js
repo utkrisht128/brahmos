@@ -52,7 +52,7 @@ export default function It() {
     <>
       <Navbar />
       <h1 id="heading">Information Technology</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -72,7 +72,7 @@ export default function It() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -95,7 +95,7 @@ export default function It() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={CompGraphics}
         img3={CAO}
@@ -115,7 +115,7 @@ export default function It() {
         link2={"/OptimizationPrinciplesandTechniques"}
         name2={"Optimization Principles and Techniques"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={DAA}
@@ -135,47 +135,7 @@ export default function It() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Analog and Digital Communication"}
       />
-      <h1>Semester 6</h1>
-      <Boxes
-        img2={NND}
-        img3={PCC}
-        img4={WebT}
-        link1={"/OptimizationPrinciplesandTechniques"}
-        name1={"Network and networking devices W/S"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
-        name2={"Compiler and Translator Design"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
-        name3={"Web Technology"}
-      />
-      <Boxes
-        img2={ML}
-        img3={BigData}
-        img4={ANN}
-        link1={"/OptimizationPrinciplesandTechniques"}
-        name1={"Machine Learning and Data Analytics"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
-        name2={"Big Data Science and tools"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
-        name3={"Artificial Neural Networks"}
-      />
-      <h1>Semester 8</h1>
-      <Boxes
-        img2={CyberS}
-        img3={HadoopS}
-        img4={DRN}
-        link1={"/OptimizationPrinciplesandTechniques"}
-        name1={"Cyber Security"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
-        name2={"Hadoop and Spark"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
-        name3={"Deep and Reinforcement networks"}
-      />
-      <SoloBox
-        img1={CDS}
-        link1={"/ElectronicsDevices&Circuits-ice"}
-        name1={"Computational Data Science"}
-      />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={TOC}
         img3={Cloud}
@@ -203,7 +163,30 @@ export default function It() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Mobile Computing"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 6</h1>
+      <Boxes
+        img2={NND}
+        img3={PCC}
+        img4={WebT}
+        link1={"/OptimizationPrinciplesandTechniques"}
+        name1={"Network and networking devices W/S"}
+        link2={"/ComputerArchitectureandOrganization-cse"}
+        name2={"Compiler and Translator Design"}
+        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        name3={"Web Technology"}
+      />
+      <Boxes
+        img2={ML}
+        img3={BigData}
+        img4={ANN}
+        link1={"/OptimizationPrinciplesandTechniques"}
+        name1={"Machine Learning and Data Analytics"}
+        link2={"/ComputerArchitectureandOrganization-cse"}
+        name2={"Big Data Science and tools"}
+        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        name3={"Artificial Neural Networks"}
+      />
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={CompV}
         img3={PatternAI}
@@ -223,6 +206,25 @@ export default function It() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Cyber Laws"}
       />
+      <h1 className="sem">Semester 8</h1>
+      <Boxes
+        img2={CyberS}
+        img3={HadoopS}
+        img4={DRN}
+        link1={"/OptimizationPrinciplesandTechniques"}
+        name1={"Cyber Security"}
+        link2={"/ComputerArchitectureandOrganization-cse"}
+        name2={"Hadoop and Spark"}
+        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        name3={"Deep and Reinforcement networks"}
+      />
+      <SoloBox
+        img1={CDS}
+        link1={"/ElectronicsDevices&Circuits-ice"}
+        name1={"Computational Data Science"}
+      />
+      
+      
     </>
   );
 }

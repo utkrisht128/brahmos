@@ -58,7 +58,7 @@ export default function Ice() {
     <>
       <Navbar />
       <h1 id="heading">Intrumental and Cntrol Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -78,7 +78,7 @@ export default function Ice() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -101,7 +101,7 @@ export default function Ice() {
         link3={"/Signal&Systems-ice"}
         name3={"Signal & Systems"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={DataS}
         img3={Maths}
@@ -121,7 +121,7 @@ export default function Ice() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Digital Circuits and Systems"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={EnggAD}
         img3={ControlSys}
@@ -141,7 +141,7 @@ export default function Ice() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Database Management System"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={ModernControl}
         img3={PDC}
@@ -169,7 +169,7 @@ export default function Ice() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Discrete Time Systems"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={ControlNavR}
         img3={BSP}
@@ -200,7 +200,7 @@ export default function Ice() {
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Digital Signal Processing"}
       />
-            <h1>Semester 7</h1>
+            <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={IAS}
         img3={CompV}
@@ -231,7 +231,7 @@ export default function Ice() {
         link2={"/IntelligentComputing"}
         name2={"Web Technology"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={RobotAS}
         img3={Biometric}

@@ -52,7 +52,7 @@ export default function Me() {
     <>
       <Navbar />
       <h1 id="heading">Mechanical Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -72,7 +72,7 @@ export default function Me() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -86,7 +86,7 @@ export default function Me() {
       />
       <DuoBox img1={Bme} link1={"/EngMe-me"} name1={"Engineering Mechanics"}
        img2={Metallurgy} link2={"/Metallurgy-me"} name2={"Metals and Metallurgy"}/>
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={Manufacturing}
         img3={Fluid}
@@ -106,7 +106,7 @@ export default function Me() {
         link2={"/ThermalEngineeringI-me"}
         name2={"Thermal Engineering - I"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={Thermal}
         img3={Manufacturing}
@@ -126,7 +126,7 @@ export default function Me() {
         link2={"/IntelligentComputing"}
         name2={"Control Systems"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={MechanicalD}
         img3={AutoTrans}
@@ -154,7 +154,7 @@ export default function Me() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Fundamentals & Operations of Electric Vehicles"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={AIME}
         img3={CADM}
@@ -166,7 +166,7 @@ export default function Me() {
         link3={"/ThermalEngineeringI-me"}
         name3={"Mechatronics"}
       />
-      <h1>Semester 6(Electives)</h1>
+      <h1 className="sem">Semester 6(Electives)</h1>
       <Boxes
         img2={CAPP}
         img3={Solar}
@@ -183,7 +183,7 @@ export default function Me() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Microrobotics"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={EHV}
         img3={Reverse}
@@ -203,7 +203,7 @@ export default function Me() {
         link2={"/IntelligentComputing"}
         name2={"Laser Materials Processing"}
       />
-      <h1>Semester 8(Electives)</h1>
+      <h1 className="sem">Semester 8(Electives)</h1>
       <Boxes
         img2={FluidP}
         img3={EMM}

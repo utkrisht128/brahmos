@@ -42,7 +42,7 @@ export default function Csds() {
     <>
       <Navbar />
       <h1 id="heading">Computer Science and Engineering(Data Science)</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -62,7 +62,7 @@ export default function Csds() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -85,7 +85,7 @@ export default function Csds() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={DBMS}
         img3={WebT}
@@ -105,7 +105,7 @@ export default function Csds() {
         link2={"/MicroprocessorsandMicrocontrollers-cse"}
         name2={"Microprocessors and Microcontrollers"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={TheoryofAuto}
@@ -125,7 +125,7 @@ export default function Csds() {
         link2={"/ProbabilityandStochasticProcesses-ece"}
         name2={"Probability and Stochastic Processes"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={PCC}
         img3={DistributedC}
@@ -145,7 +145,7 @@ export default function Csds() {
         link2={"/IntelligentComputing"}
         name2={"Data Handling and Visualization Tools"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={DistributedData}
         img3={DataScienceT}

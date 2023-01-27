@@ -57,7 +57,7 @@ export default function Ece() {
     <>
       <Navbar />
       <h1 id="heading">Electronics and Communication Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -77,7 +77,7 @@ export default function Ece() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -100,7 +100,7 @@ export default function Ece() {
         link3={"/DataStructure-cse"}
         name3={"Data Structures and Algorithms"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={MSPC}
         img3={SignalS}
@@ -120,7 +120,7 @@ export default function Ece() {
         link2={"/DigitalCircuitsandSystems-ice"}
         name2={"Digital Circuits and Systems"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={ElecWork}
         img3={ElectroMag}
@@ -140,7 +140,7 @@ export default function Ece() {
         link2={"/DigitalCircuitsandSystems-ice"}
         name2={"Communication Engineering"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={DigitalComm}
         img3={DSP}
@@ -157,7 +157,7 @@ export default function Ece() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Embedded System Design"}
       />
-      <h1>Semester 5(Elective)</h1>
+      <h1 className="sem">Semester 5(Elective)</h1>
       <Boxes
         img2={COI}
         img3={DigitalIP}
@@ -174,7 +174,7 @@ export default function Ece() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Database Management System"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={ControlSys}
         img3={CompNetwork}
@@ -186,7 +186,7 @@ export default function Ece() {
         link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
         name3={"RF and Microwave Engineering"}
       />
-      <h1>Semester 6(Elective)</h1>
+      <h1 className="sem">Semester 6(Elective)</h1>
       <Boxes
         img2={Satellite}
         img3={OpticalLaser}
@@ -206,7 +206,7 @@ export default function Ece() {
         link2={"/DigitalCircuitsandSystems-ice"}
         name2={"Operating Systems"}
       />
-            <h1>Semester 7</h1>
+            <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={UnderwaterC}
         img3={WirelessMC}
@@ -229,7 +229,7 @@ export default function Ece() {
         link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
         name3={"Cloud Computing"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={MultimediaC}
         img3={CongnitiveR}

@@ -50,7 +50,7 @@ export default function Mpae() {
     <>
       <Navbar />
       <h1 id="heading">Manufacturing Processes and Automation Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -70,7 +70,7 @@ export default function Mpae() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -93,7 +93,7 @@ export default function Mpae() {
         link3={"/Metallurgy-me"}
         name3={"Metals and Metallurgy"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={NMC}
         img3={Manufacturing}
@@ -110,7 +110,7 @@ export default function Mpae() {
         link1={"/MicroprocessorsandMicrocontrollers-cse"}
         name1={"Microprocessor and Microcontroller"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={IndustrialMang}
         img3={ControlSys}
@@ -130,7 +130,7 @@ export default function Mpae() {
         link2={"/Bme-me"}
         name2={"Applied Plasticity"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={MechanicalD}
         img3={Modeling}
@@ -153,7 +153,7 @@ export default function Mpae() {
         link3={"/MicroprocessorsandMicrocontrollers-cse"}
         name3={"Robotics"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={CIM}
         img3={Mechatronics}
@@ -165,7 +165,7 @@ export default function Mpae() {
         link3={"/MicroprocessorsandMicrocontrollers-cse"}
         name3={"Artificial Intelligence in Mechanical Engineering"}
       />
-      <h1>Semester 6(Electives)</h1>
+      <h1 className="sem">Semester 6(Electives)</h1>
       <Boxes
         img2={CAPP}
         img3={Solar}
@@ -182,7 +182,7 @@ export default function Mpae() {
         link1={"/MicroprocessorsandMicrocontrollers-cse"}
         name1={"Microrobotics"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={Reverse}
         img3={MechanicalD}
@@ -199,7 +199,7 @@ export default function Mpae() {
         link1={"/MicroprocessorsandMicrocontrollers-cse"}
         name1={"Laser Materials Processing"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={FluidP}
         img3={EMM}

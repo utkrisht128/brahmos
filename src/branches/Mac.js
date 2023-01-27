@@ -52,7 +52,7 @@ export default function Mac() {
     <>
       <Navbar />
       <h1 id="heading">Mathematics and Computing</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -72,7 +72,7 @@ export default function Mac() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h2>Semester 2</h2>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
         img3={Chemistry}
@@ -95,7 +95,7 @@ export default function Mac() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={EnggMaths}
         img3={DBMS}
@@ -115,7 +115,7 @@ export default function Mac() {
         link2={"/ComputerArchitectureandOrganization-cse"}
         name2={"Computer Architecture and Organization"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={TheoryofAuto}
@@ -135,7 +135,7 @@ export default function Mac() {
         link2={"/AppliedLinearAlgebra"}
         name2={"Applied Linear Algebra"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={Software}
         img3={CompNetwork}
@@ -158,7 +158,7 @@ export default function Mac() {
         link3={"/SpecialFunctions"}
         name3={"Operational Research"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={BigData}
         img3={CompTools}
@@ -181,7 +181,7 @@ export default function Mac() {
         link3={"/NaturalLanguageProcessing"}
         name3={"Natural Language Processing(EG)"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={Crypto}
         img3={Simulation}
@@ -198,7 +198,7 @@ export default function Mac() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Advance Numerical Analysis"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={AdvAlgo}
         img3={PDE}

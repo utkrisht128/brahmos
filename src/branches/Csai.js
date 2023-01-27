@@ -53,7 +53,7 @@ export default function Csai() {
       <h1 id="heading">
         Computer Science and Engineering(Artificial Intelligence)
       </h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -73,7 +73,7 @@ export default function Csai() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -96,7 +96,7 @@ export default function Csai() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={DBMS}
         img3={WebT}
@@ -116,7 +116,7 @@ export default function Csai() {
         link2={"/MicroprocessorsandMicrocontrollers-cse"}
         name2={"Microprocessors and Microcontrollers"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={TheoryofAuto}
@@ -136,7 +136,7 @@ export default function Csai() {
         link2={"/ProbabilityandStochasticProcesses-ece"}
         name2={"Probability and Stochastic Processes"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={PCC}
         img3={DistributedC}
@@ -156,7 +156,7 @@ export default function Csai() {
         link2={"/IntelligentComputing"}
         name2={"Cryptography Techniques"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={DeepLearn}
         img3={CHS}
@@ -179,7 +179,7 @@ export default function Csai() {
         link3={"/DataPrivacyandSecurity-cse"}
         name3={"Computer Vision(EG)"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={AR}
         img3={HCI}
@@ -196,7 +196,7 @@ export default function Csai() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Pattern Processing using AI"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={KnowledgeBS}
         img3={ResponsibleAI}

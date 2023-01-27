@@ -52,7 +52,7 @@ export default function ComputerEng() {
     <>
       <Navbar />
       <h1 id="heading">Computer Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={Physics}
         img3={Maths}
@@ -72,7 +72,7 @@ export default function ComputerEng() {
         link2={"/Cp-me"}
         name2={"Computer Programming"}
       />
-      <h1>Semester 2</h1>
+      <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -95,7 +95,7 @@ export default function ComputerEng() {
         link3={"/DiscreteStructure-cse"}
         name3={"Discrete Structure"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={DBMS}
         img3={WebT}
@@ -115,7 +115,7 @@ export default function ComputerEng() {
         link2={"/MicroprocessorsandMicrocontrollers-cse"}
         name2={"Microprocessors and Microcontrollers"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={OperatingSys}
         img3={TheoryofAuto}
@@ -135,7 +135,7 @@ export default function ComputerEng() {
         link2={"/ProbabilityandStochasticProcesses-ece"}
         name2={"Probability and Stochastic Processes"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={PCC}
         img3={Cloud}
@@ -158,7 +158,7 @@ export default function ComputerEng() {
         link3={"/AugmentedReality-cse"}
         name3={"Cryptography Techniques"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={HPC}
         img3={CHS}
@@ -181,7 +181,7 @@ export default function ComputerEng() {
         link3={"/DataPrivacyandSecurity-cse"}
         name3={"Data Privacy and Security (EG)"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={ITInfra}
         img3={HCI}
@@ -204,7 +204,7 @@ export default function ComputerEng() {
         link3={"/AugmentedReality-cse"}
         name3={"Software Project Management"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={Trends}
         img3={SOA}

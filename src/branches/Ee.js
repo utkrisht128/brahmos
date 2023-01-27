@@ -57,7 +57,7 @@ export default function Ee() {
     <>
       <Navbar />
       <h1 id="heading">Electrical Engineering</h1>
-      <h1>Semester 1</h1>
+      <h1 className="sem">Semester 1</h1>
       <Boxes
         img2={English}
         img3={Maths}
@@ -77,7 +77,7 @@ export default function Ee() {
         link2={"/Bme-me"}
         name2={"Basic of Mechanical Engineering"}
       />
-       <h1>Semester 2</h1>
+       <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={Cp}
         img3={Maths}
@@ -100,7 +100,7 @@ export default function Ee() {
         link3={"/Signal&Systems-ice"}
         name3={"Signal & Systems"}
       />
-      <h1>Semester 3</h1>
+      <h1 className="sem">Semester 3</h1>
       <Boxes
         img2={Maths}
         img3={DataS}
@@ -120,7 +120,7 @@ export default function Ee() {
         link2={"/IntelligentComputing"}
         name2={"Digital Circuit and System"}
       />
-      <h1>Semester 4</h1>
+      <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={DBMS}
         img3={ElectroMag}
@@ -140,7 +140,7 @@ export default function Ee() {
         link2={"/IntelligentComputing"}
         name2={"Power Electronics"}
       />
-      <h1>Semester 5</h1>
+      <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={MicroSystemD}
         img3={ControlSys}
@@ -157,7 +157,7 @@ export default function Ee() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Electric Drives"}
       />
-        <h1>Semester 5(Elective)</h1>
+        <h1 className="sem">Semester 5(Elective)</h1>
       <Boxes
         img2={RenewableEnergyS}
         img3={ElectricalEnggM}
@@ -169,7 +169,7 @@ export default function Ee() {
         link3={"/ElectricalMeasurements-ice"}
         name3={"Modelling & Analysis of Electrical Machine"}
       />
-      <h1>Semester 6</h1>
+      <h1 className="sem">Semester 6</h1>
       <Boxes
         img2={PowerSysAnalysis}
         img3={Switchgear}
@@ -181,7 +181,7 @@ export default function Ee() {
         link3={"/ElectricalMeasurements-ice"}
         name3={"HVDC"}
       />
-      <h1>Semester 6(Elective)</h1>
+      <h1 className="sem">Semester 6(Elective)</h1>
       <Boxes
         img2={EnvImpact}
         img3={SmartGT}
@@ -198,7 +198,7 @@ export default function Ee() {
         link1={"/ElectronicsDevices&Circuits-ice"}
         name1={"Operating Systems"}
       />
-      <h1>Semester 7</h1>
+      <h1 className="sem">Semester 7</h1>
       <Boxes
         img2={EnergyStorage}
         img3={Biomass}
@@ -229,7 +229,7 @@ export default function Ee() {
         link2={"/IntelligentComputing"}
         name2={"Data Warehouse and Data Mining"}
       />
-      <h1>Semester 8</h1>
+      <h1 className="sem">Semester 8</h1>
       <Boxes
         img2={AdvEnergyM}
         img3={CRE}
