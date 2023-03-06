@@ -1,7 +1,6 @@
 .fullContainer{
     /* border: 2px solid black; */
-    margin-top: 7rem;
-    margin: 7rem 10rem;
+    margin: 7rem 0rem;
     justify-content: center;
     align-content: center;
     display: grid;
