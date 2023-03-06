@@ -108,17 +108,17 @@ export default function Ice() {
         img4={PowerApp}
         link1={"/DataStructure-cse"}
         name1={"Data Structure and Algorithms"}
-        link2={"/ElectronicsDevices&Circuits-ice"}
+        link2={"/Maths3-ice"}
         name2={"Maths-3"}
-        link3={"/Signal&Systems-ice"}
+        link3={"/PowerApparatus-ice"}
         name3={"Power Apparatus"}
       />
       <DuoBox
         img1={ElecInstrumentation}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/ElectronicInstrumentation-ice"}
         name1={"Electronic Instrumentation"}
         img2={DigitalCS}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DigitalCircuitsandSystems-ice"}
         name2={"Digital Circuits and Systems"}
       />
       <h1 className="sem">Semester 4</h1>
@@ -126,19 +126,19 @@ export default function Ice() {
         img2={EnggAD}
         img3={ControlSys}
         img4={MicroSystemD}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/EngineeringAnalysisandDesign-ice"}
         name1={"Engineering Analysis & Design"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ControlSystemsI-ice"}
         name2={"Control Systems- I"}
-        link3={"/DataStructure-cse"}
+        link3={"/MicroprocessorBasedSystemDesign-ice"}
         name3={"Microprocessor Based System Design"}
       />
       <DuoBox
         img1={SensorT}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/SensorsandTransducers-ice"}
         name1={"Sensors and Transducers"}
         img2={DBMS}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DatabaseManagementSystem-cse"}
         name2={"Database Management System"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -146,27 +146,27 @@ export default function Ice() {
         img2={ModernControl}
         img3={PDC}
         img4={COI}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/ModernControlTheory-ice"}
         name1={"Modern Control Theory"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ProcessDynamicsandControl-ice"}
         name2={"Process Dynamics and Control"}
-        link3={"/DataStructure-cse"}
+        link3={"/CommunicationandOpticalInstrumentation-ice"}
         name3={"Communication and Optical Instrumentation"}
       />
       <Boxes
         img2={Robotics}
         img3={SensorT}
         img4={BioMedicalInstru}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/Robotics-ice"}
         name1={"Robotics"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/SmartSensors-ice"}
         name2={"Smart Sensors"}
-        link3={"/DataStructure-cse"}
+        link3={"/BiomedicalInstrumentation-ice"}
         name3={"Biomedical Instrumentation"}
       />
       <SoloBox
         img1={DiscreteTS}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/DiscreteTimeSystems-ice"}
         name1={"Discrete Time Systems"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -174,30 +174,30 @@ export default function Ice() {
         img2={ControlNavR}
         img3={BSP}
         img4={SMR}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/ControlandNavigationinRobotics-ice"}
         name1={"Control and Navigation in Robotics"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/BiomedicalSignalProcessing-ice"}
         name2={"Biomedical Signal Processing"}
-        link3={"/DataStructure-cse"}
+        link3={"/SensoryandMotorRehabilitation-ice"}
         name3={"Sensory and Motor Rehabilitation"}
       />
       <Boxes
         img2={IntelliControl}
         img3={PED}
         img4={IndustrialIntru}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/IntelligentControl-ice"}
         name1={"Intelligent Control"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/PowerElectronicsandDrive-ice"}
         name2={"Power Electronics & Drive"}
-        link3={"/DataStructure-cse"}
+        link3={"/IndustrialInstrumentation-ice"}
         name3={"Industrial Instrumentation"}
       />
       <DuoBox
         img1={OperatingSys}
-        link1={"/ComputerArchitectureandOrganization-cse"}
-        name1={"Operating systems"}
+        link1={"/Operatingsystems-ice"}
+        name1={"Operating Systems"}
         img2={DSP}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DigitalSignalProcessing-ice"}
         name2={"Digital Signal Processing"}
       />
             <h1 className="sem">Semester 7</h1>
@@ -205,30 +205,30 @@ export default function Ice() {
         img2={IAS}
         img3={CompV}
         img4={OpticalLaser}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/IntelligentAutonomousSystems-ice"}
         name1={"Intelligent Autonomous Systems"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/RoboticsVision-ice"}
         name2={"Robotics Vision"}
-        link3={"/DataStructure-cse"}
+        link3={"/OpticalFibreandLaserinMedicine-ice"}
         name3={"Optical Fibre and Laser in Medicine"}
       />
       <Boxes
         img2={BioImg}
         img3={OptTech}
         img4={Mechatronics}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/BiomedicalImaging-ice"}
         name1={"Biomedical Imaging"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ClassicalOptimizationTechniques-ice"}
         name2={"Classical Optimization Techniques"}
-        link3={"/DataStructure-cse"}
+        link3={"/Mechatronics-ice"}
         name3={"Mechatronics"}
       />
       <DuoBox
         img1={CyberL}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/CyberLaws-ice"}
         name1={"Cyber Laws"}
         img2={WebT}
-        link2={"/IntelligentComputing"}
+        link2={"/WebTechnology-ice"}
         name2={"Web Technology"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -236,22 +236,22 @@ export default function Ice() {
         img2={RobotAS}
         img3={Biometric}
         img4={MLHealth}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/RobotAnalysisandcontrol-ice"}
         name1={"Robot Analysis and control"}
-        link2={"/Signal&Systems-ice"}
-        name2={"Biometric Technology and security systems"}
-        link3={"/DataStructure-cse"}
-        name3={"Machine learning for healthcare"}
+        link2={"/BiometricTechnologyandsecuritysystems-ice"}
+        name2={"Biometric Technology and Security Systems"}
+        link3={"/MachineLearningforHealthcare-ice"}
+        name3={"Machine Learning for Healthcare"}
       />
       <Boxes
         img2={MultiVar}
         img3={MLControl}
         img4={ANN}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/MultivariableControlTheoryandApplications-ice"}
         name1={"Multivariable Control Theory and Applications"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/MachineLearningApplicationsinControlSystems-ice"}
         name2={"Machine Learning Applications in Control Systems"}
-        link3={"/DataStructure-cse"}
+        link3={"/ArtificialNeuralNetworks-ice"}
         name3={"Artificial Neural Networks"}
       />
     </>

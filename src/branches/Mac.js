@@ -100,11 +100,11 @@ export default function Mac() {
         img2={EnggMaths}
         img3={DBMS}
         img4={MathsStats}
-        link1={"/DataStructure-cse"}
+        link1={"/EngineeringMathematics-mac"}
         name1={"Engineering Mathematics"}
         link2={"/DatabaseManagementSystems-cse"}
         name2={"Database Mangement Systems"}
-        link3={"/DiscreteStructure-cse"}
+        link3={"/MathematicalStatistics-mac"}
         name3={"Mathematical Statistics"}
       />
       <DuoBox
@@ -122,17 +122,17 @@ export default function Mac() {
         img4={ScienComp}
         link1={"/Operatingsystem-cse"}
         name1={"Operating system"}
-        link2={"/TheoryofAutomata&FormalLanguages"}
+        link2={"/TheoryofAutomata&FormalLanguages-mac"}
         name2={"Theory of Automata & Formal Languages"}
-        link3={"/ScientificComputing"}
+        link3={"/ScientificComputing-mac"}
         name3={"Scientific Computing"}
       />
       <DuoBox
         img1={Real}
-        link1={"/RealAnalysis"}
+        link1={"/RealAnalysis-mac"}
         name1={"Real Analysis"}
         img2={ALA}
-        link2={"/AppliedLinearAlgebra"}
+        link2={"/AppliedLinearAlgebra-mac"}
         name2={"Applied Linear Algebra"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -140,22 +140,22 @@ export default function Mac() {
         img2={Software}
         img3={CompNetwork}
         img4={SoftComp}
-        link1={"/NaturalLanguageProcessing"}
+        link1={"/SoftwareEngineering-mac"}
         name1={"Software Engineering"}
-        link2={"/ComputerGraphics"}
+        link2={"/ComputerNetworks-mac"}
         name2={"Computer Networks"}
-        link3={"/SpecialFunctions"}
+        link3={"/SoftComputing-mac"}
         name3={"Soft Computing"}
       />
       <Boxes
         img2={Financial}
         img3={OptTech}
         img4={OperationalR}
-        link1={"/NaturalLanguageProcessing"}
+        link1={"/FinancialEngineering-mac"}
         name1={"Financial Engineering"}
-        link2={"/ComputerGraphics"}
+        link2={"/Optimization-mac"}
         name2={"Optimization"}
-        link3={"/SpecialFunctions"}
+        link3={"/OperationalResearch-mac"}
         name3={"Operational Research"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -163,22 +163,22 @@ export default function Mac() {
         img2={BigData}
         img3={CompTools}
         img4={ML}
-        link1={"/BigDataAnalytics"}
+        link1={"/BigDataAnalytics-mac"}
         name1={"Big Data Analytics"}
-        link2={"/ComputingTools"}
+        link2={"/ComputingTools-mac"}
         name2={"Computing Tools W/S"}
-        link3={"/MachineLearning"}
+        link3={"/MachineLearning-mac"}
         name3={"Machine Learning"}
       />
       <Boxes
         img2={CompGraphics}
         img3={SpecialFunc}
         img4={NLP}
-        link1={"/ComputerGraphics"}
+        link1={"/ComputerGraphics-mac"}
         name1={"Computer Graphics"}
-        link2={"/SpecialFunctions"}
+        link2={"/SpecialFunctions-mac"}
         name2={"Special Functions"}
-        link3={"/NaturalLanguageProcessing"}
+        link3={"/NaturalLanguageProcessing-mac"}
         name3={"Natural Language Processing(EG)"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -186,16 +186,16 @@ export default function Mac() {
         img2={Crypto}
         img3={Simulation}
         img4={Graph}
-        link1={"/NaturalLanguageProcessing"}
+        link1={"/Cryptography-mac"}
         name1={"Cryptography"}
-        link2={"/ComputerGraphics"}
+        link2={"/Simulation-mac"}
         name2={"Simulation"}
-        link3={"/SpecialFunctions"}
+        link3={"/GraphTheoryandAlgorithm-mac"}
         name3={"Graph Theory and Algorithm"}
       />
       <SoloBox
         img1={AdvNumerical}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/AdvanceNumericalAnalysis-mac"}
         name1={"Advance Numerical Analysis"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -203,19 +203,19 @@ export default function Mac() {
         img2={AdvAlgo}
         img3={PDE}
         img4={Queing}
-        link1={"/NaturalLanguageProcessing"}
+        link1={"/Advancedalgorithm-mac"}
         name1={"Advanced algorithm"}
-        link2={"/ComputerGraphics"}
+        link2={"/PartialDifferentialEquations-mac"}
         name2={"Partial Differential Equations"}
-        link3={"/SpecialFunctions"}
+        link3={"/QueuingTheoryandApplications-mac"}
         name3={"Queuing Theory and Applications"}
       />
       <DuoBox
         img1={KnowledgeBS}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/KnowledgeBasedSystems-mac"}
         name1={"Knowledge Based Systems"}
         img2={IntelliComp}
-        link2={"/IntelligentComputing"}
+        link2={"/IntelligentComputing-mac"}
         name2={"Intelligent Computing"}
       />
     </>

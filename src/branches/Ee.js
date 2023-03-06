@@ -105,19 +105,19 @@ export default function Ee() {
         img2={Maths}
         img3={DataS}
         img4={EngineerAnaly}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/Maths3-ee"}
         name1={"Maths-3"}
         link2={"/DataStructure-cse"}
         name2={"Data Structure and Algorithms"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/EngineeringAnalysisandDesignC-ee"}
         name3={"Engineering Analysis & Design C"}
       />
        <DuoBox
         img1={ElecMachine}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/ElectricalMachinesI-ee"}
         name1={"Electrical Machines-I"}
         img2={DigitalCS}
-        link2={"/IntelligentComputing"}
+        link2={"/DigitalCircuitandSystem-ee"}
         name2={"Digital Circuit and System"}
       />
       <h1 className="sem">Semester 4</h1>
@@ -125,19 +125,19 @@ export default function Ee() {
         img2={DBMS}
         img3={ElectroMag}
         img4={ElecMachine}
-        link1={"/ElectronicsDevices&Circuits-ice"}
-        name1={"Data Base Management System"}
-        link2={"/Signal&Systems-ice"}
+        link1={"/DataBaseManagementSystem-cse"}
+        name1={"DataBase Management System"}
+        link2={"/ElectromagneticFields-ee"}
         name2={"Electromagnetic Fields"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/ElectricalMachineII-ee"}
         name3={"Electrical Machine-II"}
       />
       <DuoBox
         img1={PowerSystem}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/PowerSystems-ee"}
         name1={"Power Systems"}
         img2={PowerElect}
-        link2={"/IntelligentComputing"}
+        link2={"/PowerElectronics-ee"}
         name2={"Power Electronics"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -145,16 +145,16 @@ export default function Ee() {
         img2={MicroSystemD}
         img3={ControlSys}
         img4={PowerTrans}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/MicroprocessorBasedSystemDesign-ee"}
         name1={"Microprocessor Based System Design"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ControlSystems-ee"}
         name2={"Control Systems"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/PowerTransmissionandDistribution-ee"}
         name3={"Power Transmission and Distribution"}
       />
       <SoloBox
         img1={ElectricDrive}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/ElectricDrives-ee"}
         name1={"Electric Drives"}
       />
         <h1 className="sem">Semester 5(Elective)</h1>
@@ -162,11 +162,11 @@ export default function Ee() {
         img2={RenewableEnergyS}
         img3={ElectricalEnggM}
         img4={ModellingAnaly}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/RenewableEnergySources-ee"}
         name1={"Renewable Energy Sources"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ElectricalEngineeringMaterials-ee"}
         name2={"Electrical Engineering Materials"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/ModellingandAnalysisofElectricalMachine-ee"}
         name3={"Modelling & Analysis of Electrical Machine"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -174,11 +174,11 @@ export default function Ee() {
         img2={PowerSysAnalysis}
         img3={Switchgear}
         img4={HVDC}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/PowerSystemAnalysis-ee"}
         name1={"Power System Analysis"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/SwitchgearandProtection-ee"}
         name2={"Switchgear and Protection"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/HVDC-ee"}
         name3={"HVDC"}
       />
       <h1 className="sem">Semester 6(Elective)</h1>
@@ -186,16 +186,16 @@ export default function Ee() {
         img2={EnvImpact}
         img3={SmartGT}
         img4={PowerElectronicsCRE}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/EnvironmentalImpactofEnergySystems-ee"}
         name1={"Environmental Impact of Energy Systems"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/SmartGridTechnologies-ee"}
         name2={"Smart Grid Technologies"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/PowerElectronicConvertersforRenewableEnergySystems-ee"}
         name3={"Power Electronic Converters for Renewable Energy Systems"}
       />
       <SoloBox
         img1={OperatingSys}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/OperatingSystems-ee"}
         name1={"Operating Systems"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -203,30 +203,30 @@ export default function Ee() {
         img2={EnergyStorage}
         img3={Biomass}
         img4={PowerSysInstru}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/EnergyStorageSystem-ee"}
         name1={"Energy Storage System"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/BiomassEnergyandApplication-ee"}
         name2={"Biomass Energy and Application"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/PowerSystemInstrumentation-ee"}
         name3={"Power System Instrumentation"}
       />
       <Boxes
         img2={AdvPowerSys}
         img3={InstruPowerE}
         img4={FEV}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/AdvancedPowerSystemAnalysis-ee"}
         name1={"Advanced Power System Analysis"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/InstrumentationforPowerElectronicsandDrives-ee"}
         name2={"Instrumentation for Power Electronics and Drives"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/ElectricVehicleTechnologies-ee"}
         name3={"Electric Vehicle Technologies"}
       />
       <DuoBox
         img1={SoftComp}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/SoftComputing-ee"}
         name1={"Soft Computing"}
         img2={DataWare}
-        link2={"/IntelligentComputing"}
+        link2={"/DataWarehouseandDataMining-ee"}
         name2={"Data Warehouse and Data Mining"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -234,22 +234,22 @@ export default function Ee() {
         img2={AdvEnergyM}
         img3={CRE}
         img4={PSOC}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/AdvancedEnergyManagement-ee"}
         name1={"Advanced Energy Management"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ControlofRenewableEnergySystem-ee"}
         name2={"Control of Renewable Energy System"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/PowerSystemOperationandControl-ee"}
         name3={"Power System Operation and Control"}
       />
       <Boxes
         img2={PWM}
         img3={ANN}
         img4={BigData}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/PWMConvertersandApplications-ee"}
         name1={"PWM Converters and Applications"}
-        link2={"/Signal&Systems-ice"}
+        link2={"/ArtificialNeuralNetworks-ee"}
         name2={"Artificial Neural Networks"}
-        link3={"/ElectricalMeasurements-ice"}
+        link3={"/BigDataScienceandTools-ee"}
         name3={"Big Data Science and Tools"}
       />
       

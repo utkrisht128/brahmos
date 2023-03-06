@@ -75,14 +75,14 @@ export default function ComputerEng() {
       <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
-        img3={Maths}
-        img4={Chemistry}
+        img3={Chemistry}
+        img4={Maths}
         link1={"/English-me"}
         name1={"English"}
         link2={"/Chemistry-me"}
         name2={"Chemistry"}
-        link3={"/Physics-me"}
-        name3={"Physics"}
+        link3={"/Maths2-me"}
+        name3={"Maths-2"}
       />
       <Boxes
         img2={DLD}
@@ -122,7 +122,7 @@ export default function ComputerEng() {
         img4={Software}
         link1={"/Operatingsystem-cse"}
         name1={"Operating system"}
-        link2={"/TheoryofAutomata&FormalLanguages-cse"}
+        link2={"/TheoryofAutomataandFormalLanguages-cse"}
         name2={"Theory of Automata & Formal Languages"}
         link3={"/SoftwareEngineering-cse"}
         name3={"Software Engineering"}
@@ -140,22 +140,22 @@ export default function ComputerEng() {
         img2={PCC}
         img3={Cloud}
         img4={DataM}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/PrincipleofCompilerConstruction-cse"}
         name1={"Principle of Compiler Construction"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/CloudComputing-cse"}
         name2={"Cloud Computing"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/DataMining-cse"}
         name3={"Data Mining"}
       />
       <Boxes
         img2={ML}
         img3={OOAD}
         img4={Crypto}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/MachineLearning-cse"}
         name1={"Machine Learning"}
-        link2={"/ServiceOrientedArchitecture-cse"}
-        name2={"Object oriented Analysis and Design"}
-        link3={"/AugmentedReality-cse"}
+        link2={"/ObjectorientedAnalysisandDesign-cse"}
+        name2={"Object Oriented Analysis and Design"}
+        link3={"/CryptographyTechniques-cse"}
         name3={"Cryptography Techniques"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -186,22 +186,22 @@ export default function ComputerEng() {
         img2={ITInfra}
         img3={HCI}
         img4={CompGraphics}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/ITInfrastructureandManagement-cse"}
         name1={"IT Infrastructure and Management"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/HumanComputerInteraction-cse"}
         name2={"Human Computer Interaction"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/ComputerGraphics-cse"}
         name3={"Computer Graphics"}
       />
       <Boxes
         img2={KnowledgeBS}
         img3={Multimedia}
         img4={SProjectMang}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/KnowledgeBasedSystem-cse"}
         name1={"Knowledge Based System"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/MultimediaSecurityandForensic-cse"}
         name2={"Multimedia Security and Forensic"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/SoftwareProjectManagement-cse"}
         name3={"Software Project Management"}
       />
       <h1 className="sem">Semester 8</h1>

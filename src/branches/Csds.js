@@ -65,14 +65,14 @@ export default function Csds() {
       <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
-        img3={Maths}
-        img4={Chemistry}
+        img3={Chemistry}
+        img4={Maths}
         link1={"/English-me"}
         name1={"English"}
         link2={"/Chemistry-me"}
         name2={"Chemistry"}
-        link3={"/Physics-me"}
-        name3={"Physics"}
+        link3={"/Maths2-me"}
+        name3={"Maths-2"}
       />
       <Boxes
         img2={DLD}
@@ -114,7 +114,7 @@ export default function Csds() {
         name1={"Operating system"}
         link2={"/TheoryofAutomata&FormalLanguages-cse"}
         name2={"Theory of Automata & Formal Languages"}
-        link3={"/BigDataAnalytics"}
+        link3={"/BigDataAnalytics-csds"}
         name3={"Big Data Analytics"}
       />
       <DuoBox
@@ -130,19 +130,19 @@ export default function Csds() {
         img2={PCC}
         img3={DistributedC}
         img4={DataM}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/PrincipleofCompilerConstruction-csds"}
         name1={"Principle of Compiler Construction"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/DistrbutedComputing-csds"}
         name2={"Distrbuted Computing"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/DataMining-csds"}
         name3={"Data Mining"}
       />
       <DuoBox
         img1={Multimedia}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/MultimediaAnalytics-csds"}
         name1={"Multimedia Analytics"}
         img2={DataHVT}
-        link2={"/IntelligentComputing"}
+        link2={"/DataHandlingandVisualizationTools-csds"}
         name2={"Data Handling and Visualization Tools"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -150,22 +150,22 @@ export default function Csds() {
         img2={DistributedData}
         img3={DataScienceT}
         img4={QueryPO}
-        link1={"/HighPerformanceComputing-cse"}
+        link1={"/DistributedDatabases-csds"}
         name1={"Distributed Databases"}
-        link2={"/ComputerhardwareSoftware-cse"}
+        link2={"/DataScienceTools-csds"}
         name2={"Data Science Tools W/S"}
-        link3={"/InternetofThings-cse"}
+        link3={"/QueryProcessingandOptimization-csds"}
         name3={"Query Processing and Optimization"}
       />
       <Boxes
         img2={BI}
         img3={SocialA}
         img4={NLP}
-        link1={"/ComputerVision-cse"}
+        link1={"/BusinessIntelligence-csds"}
         name1={"Business Intelligence"}
-        link2={"/NaturalLanguageProcessing-cse"}
+        link2={"/SocialMediaAnalytics-csds"}
         name2={"Social Media Analytics"}
-        link3={"/DataPrivacyandSecurity-cse"}
+        link3={"/NaturalLanguageProcessing-csds"}
         name3={"Natural Language Processing(EG)"}
       />
       

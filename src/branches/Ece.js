@@ -5,6 +5,8 @@ import DuoBox from "../components/Duo-box";
 import SoloBox from "../components/Solo-box";
 import Physics from "../Images/physics.jpg";
 import Maths from "../Images/Maths.jpg";
+import English from "../Images/english.jpg";
+import Chemistry from "../Images/chemistry.jpg";
 import Bme from "../Images/Bme.jpg";
 import EEE from "../Images/EEE.jpg";
 import Cp from "../Images/cp.jpg";
@@ -59,11 +61,11 @@ export default function Ece() {
       <h1 id="heading">Electronics and Communication Engineering</h1>
       <h1 className="sem">Semester 1</h1>
       <Boxes
-        img2={Physics}
+        img2={English}
         img3={Maths}
         img4={Bme}
-        link1={"/Physics-me"}
-        name1={"Physics"}
+        link1={"/English-me"}
+        name1={"English"}
         link2={"/Maths-me"}
         name2={"Maths"}
         link3={"/Bme-me"}
@@ -73,9 +75,9 @@ export default function Ece() {
         img1={EEE}
         link1={"/EEE-me"}
         name1={"Electrical and Electronics Engineering"}
-        img2={Cp}
-        link2={"/Cp-me"}
-        name2={"Computer Programming"}
+        img2={Chemistry}
+        link2={"/Chemistry-me"}
+        name2={"Chemistry"}
       />
       <h1 className="sem">Semester 2</h1>
       <Boxes
@@ -105,7 +107,7 @@ export default function Ece() {
         img2={MSPC}
         img3={SignalS}
         img4={ProbabilityT}
-        link1={"/ElectronicDevicesandCircuits-ice"}
+        link1={"/MathematicsforSignalProcessingandCommunication-ece"}
         name1={"Mathematics for Signal Processing and Communication"}
         link2={"/Signal&Systems-ice"}
         name2={"Signals and Systems"}
@@ -114,10 +116,10 @@ export default function Ece() {
       />
       <DuoBox
         img1={MicroElec}
-        link1={"/EEE-me"}
+        link1={"/Microelectronics-ece"}
         name1={"Microelectronics"}
         img2={DigitalCS}
-        link2={"/DigitalCircuitsandSystems-ice"}
+        link2={"/DigitalCircuitsandSystems-ece"}
         name2={"Digital Circuits and Systems"}
       />
       <h1 className="sem">Semester 4</h1>
@@ -125,19 +127,19 @@ export default function Ece() {
         img2={ElecWork}
         img3={ElectroMag}
         img4={AI}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/ElectronicWorkshop-ece"}
         name1={"Electronic Workshop"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/Electromagnetics-ece"}
         name2={"Electromagnetics"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/MachineLearningArtificialIntelligence-ece"}
         name3={"Machine Learning / Artificial Intelligence"}
       />
       <DuoBox
         img1={MicroControl}
-        link1={"/EEE-me"}
+        link1={"/MicroprocessorsandCompArchitecture-ece"}
         name1={"Microprocessors and Comp. Architecture"}
         img2={CommEngg}
-        link2={"/DigitalCircuitsandSystems-ice"}
+        link2={"/CommunicationEngineering-ece"}
         name2={"Communication Engineering"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -145,16 +147,16 @@ export default function Ece() {
         img2={DigitalComm}
         img3={DSP}
         img4={AnalogComm}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/DigitalCommunication-ece"}
         name1={"Digital Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DigitalSignalProcessing-ece"}
         name2={"Digital Signal Processing"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/AnalogIntegratedCircuits-ece"}
         name3={"Analog Integrated Circuits"}
       />
       <SoloBox
         img1={EmbeddedSys}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/EmbeddedSystemDesign-ece"}
         name1={"Embedded System Design"}
       />
       <h1 className="sem">Semester 5(Elective)</h1>
@@ -162,16 +164,16 @@ export default function Ece() {
         img2={COI}
         img3={DigitalIP}
         img4={CMOS}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/OpticalFiberCommunication-ece"}
         name1={"Optical Fiber Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DigitalImageProcessing-ece"}
         name2={"Digital Image Processing"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/CMOSDigitalIntegratedCircuits-ece"}
         name3={"CMOS Digital Integrated Circuits"}
       />
       <SoloBox
         img1={DBMS}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/DatabaseManagementSystem-cse"}
         name1={"Database Management System"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -179,11 +181,11 @@ export default function Ece() {
         img2={ControlSys}
         img3={CompNetwork}
         img4={RF}
-        link1={"/DigitalCircuitsandSystems-ice"}
-        name1={"Control systems"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link1={"/Controlsystems-ece"}
+        name1={"Control Systems"}
+        link2={"/ComputerNetworks-ece"}
         name2={"Computer Networks"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/RFandMicrowaveEngineering-ece"}
         name3={"RF and Microwave Engineering"}
       />
       <h1 className="sem">Semester 6(Elective)</h1>
@@ -191,19 +193,19 @@ export default function Ece() {
         img2={Satellite}
         img3={OpticalLaser}
         img4={VLSIT}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/SatelliteCommunication-ece"}
         name1={"Satellite Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/OpticalNetworks-ece"}
         name2={"Optical networks"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/VLSITechnology-ece"}
         name3={"VLSI Technology"}
       />
       <DuoBox
         img1={Biometric}
-        link1={"/EEE-me"}
+        link1={"/PatternRecognition-ece"}
         name1={"Pattern Recognition"}
         img2={OperatingSys}
-        link2={"/DigitalCircuitsandSystems-ice"}
+        link2={"/OperatingSystems-ece"}
         name2={"Operating Systems"}
       />
             <h1 className="sem">Semester 7</h1>
@@ -211,22 +213,22 @@ export default function Ece() {
         img2={UnderwaterC}
         img3={WirelessMC}
         img4={MIMO5G}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/UnderwaterCommunication-ece"}
         name1={"Underwater Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/CellularandMobileCommunication-ece"}
         name2={"Cellular and Mobile Communication"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/MIMOfor5GCommunication-ece"}
         name3={"MIMO for 5G Communication"}
       />
       <Boxes
         img2={VSPA}
         img3={LVLPVLSI}
         img4={Cloud}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/VideoSignalProcessingandApplication-ece"}
         name1={"Video Signal Processing and Application"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/LowVoltageandLowPowerVLSIDesign-ece"}
         name2={"Low Voltage and Low Power VLSI Design"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/CloudComputing-ece"}
         name3={"Cloud Computing"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -234,22 +236,22 @@ export default function Ece() {
         img2={MultimediaC}
         img3={CongnitiveR}
         img4={Speech}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/MultimediaCommunication-ece"}
         name1={"Multimedia Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/CognitiveRadio-ece"}
         name2={"Cognitive Radio"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/SpeechandAudioSignalProcessing-ece"}
         name3={"Speech and Audio Signal Processing"}
       />
       <Boxes
         img2={ModernAnalog}
         img3={WebT}
         img4={Software}
-        link1={"/DigitalCircuitsandSystems-ice"}
+        link1={"/ModernAnalogFilterDesign-ece"}
         name1={"Modern Analog Filter Design"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/WebTechnologies-ece"}
         name2={"Web Technologies"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/SoftwareEnginnering-ece"}
         name3={"Software Enginnering"}
       />
     </>

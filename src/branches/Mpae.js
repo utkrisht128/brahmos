@@ -115,19 +115,19 @@ export default function Mpae() {
         img2={IndustrialMang}
         img3={ControlSys}
         img4={TOM}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/IndustrialEngineering&Management-me"}
         name1={"Industrial Engineering & Management"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/ControlSystems-me"}
         name2={"Control Systems"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/TheoryofMachines-me"}
         name3={"Theory of Machines"}
       />
       <DuoBox
         img1={Manufacturing}
-        link1={"/EEE-me"}
+        link1={"/ManufacturingProcessesII-me"}
         name1={"Manufacturing Processes-II"}
         img2={AppliedPlas}
-        link2={"/Bme-me"}
+        link2={"/AppliedPlasticity-mpae"}
         name2={"Applied Plasticity"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -135,22 +135,22 @@ export default function Mpae() {
         img2={MechanicalD}
         img3={Modeling}
         img4={CompositeM}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/MechanicalDesign-me"}
         name1={"Mechanical Design"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/ModelingandSimulation-me"}
         name2={"Modeling and Simulation"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"CompositeMaterials-me"}
         name3={"Composite Materials"}
       />
       <Boxes
         img2={CADM}
         img3={Tools}
         img4={Robotics}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/CAD&ProductDesign-mpae"}
         name1={"CAD & Product Design"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/ToolDesign-mpae"}
         name2={"Tool Design"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/Robotics-me"}
         name3={"Robotics"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -158,11 +158,11 @@ export default function Mpae() {
         img2={CIM}
         img3={Mechatronics}
         img4={AIME}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/ComputerIntegratedManufacturing-mpae"}
         name1={"Computer Integrated Manufacturing(CIM)"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/Mechatronics-me"}
         name2={"Mechatronics"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/ArtificialIntelligenceinMechanicalEngineering-me"}
         name3={"Artificial Intelligence in Mechanical Engineering"}
       />
       <h1 className="sem">Semester 6(Electives)</h1>
@@ -170,16 +170,16 @@ export default function Mpae() {
         img2={CAPP}
         img3={Solar}
         img4={IndustrialWM}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/ComputerAidedProcessPlanning-me"}
         name1={"Computer Aided Process Planning(CAPP)"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/SolarEnergyTechnology-me"}
         name2={"Solar Energy Technology"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/IndustrialWasteManagement-me"}
         name3={"Industrial Waste Management"}
       />
       <SoloBox
         img1={MicroRobotics}
-        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        link1={"/Microrobotics-me"}
         name1={"Microrobotics"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -187,16 +187,16 @@ export default function Mpae() {
         img2={Reverse}
         img3={MechanicalD}
         img4={WorkSE}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/ReverseEngineering-me"}
         name1={"Reverse Engineering"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/DesignforManufacture-mpae"}
         name2={"Design for Manufacture"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/WorksStudyandErgonomics-mpae"}
         name3={"Works Study and Ergonomics"}
       />
       <SoloBox
         img1={Laser}
-        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        link1={"/LaserMaterialsProcessing-me"}
         name1={"Laser Materials Processing"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -204,27 +204,27 @@ export default function Mpae() {
         img2={FluidP}
         img3={EMM}
         img4={Lubrication}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/FluidPowerEngineering-me"}
         name1={"Fluid Power Engineering"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/EngineeringMetrology&Measurements-me"}
         name2={"Engineering Metrology & Measurements"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/Industriallubrication&Tribology-me"}
         name3={"Industrial lubrication & Tribology"}
       />
       <Boxes
         img2={AddManufac}
         img3={RoboAuto}
         img4={OptTech}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/AdditiveManufacturing-me"}
         name1={"Additive Manufacturing"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/RoboticsandAutomation-me"}
         name2={"Robotics and Automation"}
-        link3={"/MicroprocessorsandMicrocontrollers-cse"}
+        link3={"/OptimizationTechniques-me"}
         name3={"Optimization Techniques"}
       />
       <SoloBox
         img1={Project}
-        link1={"/MicroprocessorsandMicrocontrollers-cse"}
+        link1={"/ProjectManagement-me"}
         name1={"Project Management"}
       />
     </>

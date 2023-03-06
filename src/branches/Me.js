@@ -115,15 +115,15 @@ export default function Me() {
         name1={"Thermal Engineering-II"}
         link2={"ManufacturingProcessesII-me"}
         name2={"Manufacturing Processes-II"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/TheoryofMachines-me"}
         name3={"Theory of Machines"}
       />
       <DuoBox
         img1={IndustrialMang}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/IndustrialEngineering&Management-me"}
         name1={"Industrial Engineering & Management"}
         img2={ControlSys}
-        link2={"/IntelligentComputing"}
+        link2={"/ControlSystems-me"}
         name2={"Control Systems"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -131,27 +131,27 @@ export default function Me() {
         img2={MechanicalD}
         img3={AutoTrans}
         img4={Modeling}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/MechanicalDesign-me"}
         name1={"Mechanical Design"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/AutomotiveTransmission-me"}
         name2={"Automotive Transmission"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/ModelingandSimulation-me"}
         name3={"Modeling and Simulation"}
       />
       <Boxes
         img2={CompositeM}
         img3={Robotics}
         img4={AutoEngg}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/CompositeMaterials-me"}
         name1={"Composite Materials"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/Robotics-me"}
         name2={"Robotics"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/AutomobileEngineering-me"}
         name3={"Automobile Engineering"}
       />
       <SoloBox
         img1={FEV}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/Fundamentals&OperationsofEV-me"}
         name1={"Fundamentals & Operations of Electric Vehicles"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -159,11 +159,11 @@ export default function Me() {
         img2={AIME}
         img3={CADM}
         img4={Mechatronics}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/ArtificialIntelligenceinMechanicalEngineering-me"}
         name1={"Artificial Intelligence in Mechanical Engineering"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/ComputerAidedDesign&Manufacturing-me"}
         name2={"Computer-Aided Design & Manufacturing (CAD & CAM)"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/Mechatronics-me"}
         name3={"Mechatronics"}
       />
       <h1 className="sem">Semester 6(Electives)</h1>
@@ -171,16 +171,16 @@ export default function Me() {
         img2={CAPP}
         img3={Solar}
         img4={IndustrialWM}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/ComputerAidedProcessPlanning-me"}
         name1={"Computer Aided Process Planning (CAPP)"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/SolarEnergyTechnology-me"}
         name2={"Solar Energy Technology"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/IndustrialWasteManagement-me"}
         name3={"Industrial Waste Management"}
       />
       <SoloBox
         img1={MicroRobotics}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/Microrobotics-me"}
         name1={"Microrobotics"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -188,19 +188,19 @@ export default function Me() {
         img2={EHV}
         img3={Reverse}
         img4={SmartMR}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/Electric&HybridVehicles-me"}
         name1={"Electric & Hybrid Vehicles"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/ReverseEngineering-me"}
         name2={"Reverse Engineering"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/SmartMaterialsinRobotics-me"}
         name3={"Smart Materials in Robotics"}
       />
       <DuoBox
         img1={ECM}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/EnergyConversion&Management-me"}
         name1={"Energy Conversion & Management"}
         img2={Laser}
-        link2={"/IntelligentComputing"}
+        link2={"/LaserMaterialsProcessing-me"}
         name2={"Laser Materials Processing"}
       />
       <h1 className="sem">Semester 8(Electives)</h1>
@@ -208,27 +208,27 @@ export default function Me() {
         img2={FluidP}
         img3={EMM}
         img4={Lubrication}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/FluidPowerEngineering-me"}
         name1={"Fluid Power Engineering"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/EngineeringMetrology&Measurements-me"}
         name2={"Engineering Metrology & Measurements"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/Industriallubrication&Tribology-me"}
         name3={"Industrial lubrication & Tribology"}
       />
       <Boxes
         img2={AddManufac}
         img3={RoboAuto}
         img4={OptTech}
-        link1={"/ManufacturingProcessesI-me"}
+        link1={"/AdditiveManufacturing-me"}
         name1={"Additive Manufacturing"}
-        link2={"/StrengthofMaterials-me"}
+        link2={"/RoboticsandAutomation-me"}
         name2={"Robotics and Automation"}
-        link3={"/ThermalEngineeringI-me"}
+        link3={"/OptimizationTechniques-me"}
         name3={"Optimization Techniques"}
       />
       <SoloBox
         img1={Project}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/ProjectManagement-me"}
         name1={"Project Management"}
       />
     </>

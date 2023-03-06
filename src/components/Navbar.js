@@ -30,10 +30,10 @@ export default function Navbar() {
               </h1>
             </li>
           </ul>
-          <div class="openMenu" onClick={updateMenu}>
-                <span class={burger_class}></span>
-                <span class={burger_class}></span>
-                <span class={burger_class}></span>
+          <div className="openMenu" onClick={updateMenu}>
+                <span className={burger_class}></span>
+                <span className={burger_class}></span>
+                <span className={burger_class}></span>
             </div>
           <ul className={menu_class}>
             <li>

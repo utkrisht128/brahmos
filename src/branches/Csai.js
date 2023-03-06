@@ -76,14 +76,14 @@ export default function Csai() {
       <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
-        img3={Maths}
-        img4={Chemistry}
+        img3={Chemistry}
+        img4={Maths}
         link1={"/English-me"}
         name1={"English"}
         link2={"/Chemistry-me"}
         name2={"Chemistry"}
-        link3={"/Physics-me"}
-        name3={"Physics"}
+        link3={"/Maths2-me"}
+        name3={"Maths-2"}
       />
       <Boxes
         img2={DLD}
@@ -125,7 +125,7 @@ export default function Csai() {
         name1={"Operating system"}
         link2={"/TheoryofAutomata&FormalLanguages-cse"}
         name2={"Theory of Automata & Formal Languages"}
-        link3={"/Artificial Intelligence"}
+        link3={"/ArtificialIntelligence-csai"}
         name3={"Artificial Intelligence"}
       />
       <DuoBox
@@ -141,19 +141,19 @@ export default function Csai() {
         img2={PCC}
         img3={DistributedC}
         img4={GameTheory}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/PrincipleofCompilerConstruction-csai"}
         name1={"Principle of Compiler Construction"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/DistributedComputing-csai"}
         name2={"Distributed Computing"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/GameTheoryandApplications-csai"}
         name3={"Game Theory and Applications"}
       />
       <DuoBox
         img1={ML}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/MachineLearning-csai"}
         name1={"Machine Learning"}
         img2={Crypto}
-        link2={"/IntelligentComputing"}
+        link2={"/CryptographyTechniques-csai"}
         name2={"Cryptography Techniques"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -161,22 +161,22 @@ export default function Csai() {
         img2={DeepLearn}
         img3={CHS}
         img4={HPC}
-        link1={"/HighPerformanceComputing-cse"}
+        link1={"/DeepLearning-csai"}
         name1={"Deep Learning"}
-        link2={"/ComputerhardwareSoftware-cse"}
+        link2={"/AIHardwareandTools-csai"}
         name2={"AI Hardware and Tools W/S"}
-        link3={"/InternetofThings-cse"}
+        link3={"/HighPerformanceComputing-csai"}
         name3={"High Performance Computing"}
       />
       <Boxes
         img2={DPS}
         img3={NLP}
         img4={CompV}
-        link1={"/ComputerVision-cse"}
+        link1={"/DataPrivacyandSecurity-csai"}
         name1={"Data Privacy and Security"}
-        link2={"/NaturalLanguageProcessing-cse"}
+        link2={"/NaturalLanguageProcessing-csai"}
         name2={"Natural Language Processing"}
-        link3={"/DataPrivacyandSecurity-cse"}
+        link3={"/ComputerVision-csai"}
         name3={"Computer Vision(EG)"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -184,16 +184,16 @@ export default function Csai() {
         img2={AR}
         img3={HCI}
         img4={OptTechML}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/AugmentedReality-csai"}
         name1={"Augmented Reality"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/HumanComputerInteraction-csai"}
         name2={"Human Computer Interaction"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/OptimizationTechniqueForMachineLearning-csai"}
         name3={"Optimization Technique For Machine Learning"}
       />
       <SoloBox
         img1={PatternAI}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/PatternProcessingusingAI-csai"}
         name1={"Pattern Processing using AI"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -201,19 +201,19 @@ export default function Csai() {
         img2={KnowledgeBS}
         img3={ResponsibleAI}
         img4={IntelliComp}
-        link1={"/CurrentTrendsinSoftwareDevelopment-cse"}
+        link1={"/KnowledgeBasedSystems-csai"}
         name1={"Knowledge Based Systems"}
-        link2={"/ServiceOrientedArchitecture-cse"}
+        link2={"/ResponsibleAI-csai"}
         name2={"Responsible AI"}
-        link3={"/AugmentedReality-cse"}
+        link3={"/IntelligentComputing-csai"}
         name3={"Intelligent Computing"}
       />
       <DuoBox
         img1={AdvAlgo}
-        link1={"/KnowledgeBasedSystems"}
-        name1={"Advanced algorithm"}
+        link1={"/AdvancedAlgorithm-csai"}
+        name1={"Advanced Algorithm"}
         img2={Trends}
-        link2={"/IntelligentComputing"}
+        link2={"/CurrentTrendsinSoftwareDevelopment-csai"}
         name2={"Current Trends in Software Development (EG)"}
       />
     </>

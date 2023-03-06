@@ -106,7 +106,7 @@ export default function Itns() {
         link1={"/ProbabilityTheoryandStochasticProcess-ece"}
         name1={"Probability and Stochastic Processes"}
         img2={OptPrinciple}
-        link2={"/OptimizationPrinciplesandTechniques"}
+        link2={"/OptimizationPrinciplesandTechniques-itns"}
         name2={"Optimization Principles and Techniques"}
       />
       <h1 className="sem">Semester 4</h1>
@@ -114,19 +114,19 @@ export default function Itns() {
         img2={OperatingSys}
         img3={DAA}
         img4={Software}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/Operatingsystem-itns"}
         name1={"Operating system"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DesignandAnalysisofAlgorithm-itns"}
         name2={"Design and Analysis of Algorithm"}
-        link3={"/OptimizationPrinciplesandTechniques"}
+        link3={"/SoftwareEngineering-itns"}
         name3={"Software Engineering"}
       />
       <DuoBox
         img1={CompNetwork}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/ComputerNetworks-itns"}
         name1={"Computer Networks"}
         img2={AnalogDC}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/AnalogandDigitalCommunication-itns"}
         name2={"Analog and Digital Communication"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -134,22 +134,22 @@ export default function Itns() {
         img2={TOC}
         img3={AI}
         img4={Cloud}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/TheoryofComputation-itns"}
         name1={"Theory of Computation"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/ArtificialIntelligence-itns"}
         name2={"Artificial Intelligence"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/CloudComputing-itns"}
         name3={"Cloud Computing"}
       />
       <Boxes
         img2={IDS}
         img3={NumberTC}
         img4={MobileC}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/IntrusionDetectionSystem-itns"}
         name1={"Intrusion Detection System"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/NumberTheoryandCrpytography-itns"}
         name2={"Number Theory and Crpytography"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/MobileComputing-itns"}
         name3={"Mobile Computing"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -157,19 +157,19 @@ export default function Itns() {
         img2={InformationS}
         img3={NND}
         img4={PCC}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/InformationSecurity-itns"}
         name1={"Information Security"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/NetworkandNetworkingDevices-itns"}
         name2={"Network and Networking Devices W/S"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/CompilerandTranslatorDesign-itns"}
         name3={"Compiler and Translator Design"}
       />
       <DuoBox
         img1={Fog}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/FogandEdgeComputing-itns"}
         name1={"Fog and Edge Computing"}
         img2={DigitalF}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DigitalForensics-itns"}
         name2={"Digital Forensics"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -177,16 +177,16 @@ export default function Itns() {
         img2={CyberS}
         img3={HadoopS}
         img4={DRN}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/CyberSecurity-itns"}
         name1={"Cyber Security"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/HadoopandSpark-itns"}
         name2={"Hadoop and Spark"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/DeepandReinforcementNetworks-itns"}
         name3={"Deep and Reinforcement Networks"}
       />
       <SoloBox
         img1={CDS}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/ComputationalDataScience-itns"}
         name1={"Computational Data Science"}
       />
     </>

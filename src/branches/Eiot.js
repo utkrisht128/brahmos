@@ -96,65 +96,62 @@ export default function Eiot() {
         img2={OptPrinciple}
         img3={SignalS}
         img4={MicroElec}
-        link1={"/ElectronicDevicesandCircuits-ice"}
+        link1={"/OptimizationPrinciplesandTechniques-eiot"}
         name1={"Optimization Principles and Techniques"}
         link2={"/Signal&Systems-ice"}
         name2={"Signals and Systems"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
-        name3={""}
+        link3={"/Microelectronics-eiot"}
+        name3={"Microelectronics"}
       />
-      <Boxes
-        img2={DigitalCS}
-        img3={ProbabilityT}
-        img4={MicroElec}
-        link1={"/Signal&Systems-ice"}
+      <DuoBox
+        img1={DigitalCS}
+        link1={"/DigitalCircuitsandSystems-eiot"}
         name1={"Digital Circuits and Systems"}
+        img2={ProbabilityT}
         link2={"/ProbabilityTheoryandStochasticProcess-ece"}
         name2={"Probability Theory and Stochastic Process"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
-        name3={"Microelectronics"}
       />
       <h1 className="sem">Semester 4</h1>
       <Boxes
         img2={ControlSys}
         img3={ElectroMag}
         img4={AnalogDC}
-        link1={"/Signal&Systems-ice"}
-        name1={"Control systems (Lab)"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link1={"/Controlsystems-eiot"}
+        name1={"Control Systems (Lab)"}
+        link2={"/Electromagnetics-eiot"}
         name2={"Electromagnetics"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/AnalogandDigitalCommunication-eiot"}
         name3={"Analog and Digital Communication"}
       />
         <DuoBox
         img1={PSDA}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/PrinciplesofSensorsandDataAcquisition-eiot"}
         name1={"Principles of Sensors and Data Acquisition"}
         img2={MicroSystemD}
-        link2={"/IntelligentComputing"}
-        name2={"Microprocessor and computer architecture"}
+        link2={"/Microprocessorandcomputerarchitecture-eiot"}
+        name2={"Microprocessor and Computer Architecture"}
       />
       <h1 className="sem">Semester 5</h1>
       <Boxes
         img2={IotSystemArch}
         img3={DSPAA}
         img4={CompNetwork}
-        link1={"/Signal&Systems-ice"}
+        link1={"/IoTSystemArchitecture-eiot"}
         name1={"IoT System Architecture"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DSPAlgorithmandArchitecture-eiot"}
         name2={"DSP Algorithm and Architecture"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/ComputerNetworks-eiot"}
         name3={"Computer Networks"}
       />
       <Boxes
         img2={WirelessMC}
         img3={AI}
         img4={DBMS}
-        link1={"/Signal&Systems-ice"}
+        link1={"/WirelessandMobileCommunication-eiot"}
         name1={"Wireless and Mobile Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
-        name2={"Artificial intelligence in IoT"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link2={"/ArtificialintelligenceinIoT-eiot"}
+        name2={"Artificial Intelligence in IoT"}
+        link3={"/DatabaseManagementSystem-cse"}
         name3={"Database Management System"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -162,19 +159,19 @@ export default function Eiot() {
         img2={Cloud}
         img3={IotWorkshop}
         img4={RF}
-        link1={"/Signal&Systems-ice"}
-        name1={"Cloud computing"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link1={"/Cloudcomputing-eiot"}
+        name1={"Cloud Computing"}
+        link2={"/IoTWorkshop-eiot"}
         name2={"IoT Workshop"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/-eiot"}
         name3={"RF and Microwave Engineering"}
       />
         <DuoBox
         img1={MicroControl}
-        link1={"/KnowledgeBasedSystems"}
+        link1={"/MicrocontrollerforIoT-eiot"}
         name1={"Microcontroller for IoT"}
         img2={OperatingSys}
-        link2={"/IntelligentComputing"}
+        link2={"/OperatingSystems-eiot"}
         name2={"Operating Systems"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -182,22 +179,22 @@ export default function Eiot() {
         img2={MultimediaC}
         img3={CongnitiveR}
         img4={Speech}
-        link1={"/Signal&Systems-ice"}
+        link1={"/MultimediaCommunication-eiot"}
         name1={"Multimedia Communication"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/CognitiveRadio-eiot"}
         name2={"Cognitive Radio"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/SpeechandAudioSignalProcessing-eiot"}
         name3={"Speech and Audio Signal Processing"}
       />
       <Boxes
         img2={ModernAnalog}
         img3={WebT}
         img4={Software}
-        link1={"/Signal&Systems-ice"}
+        link1={"/ModernAnalogFilterDesign-eiot"}
         name1={"Modern Analog Filter Design"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/WebTechnologies-eiot"}
         name2={"Web Technologies"}
-        link3={"/ActiveCircuitAnalysisandSynthesis-ece"}
+        link3={"/SoftwareEnginnering-eiot"}
         name3={"Software Enginnering"}
       />
     </>

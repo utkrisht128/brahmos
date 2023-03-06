@@ -49,37 +49,37 @@ body {
     font-size: 12px;
     text-align: center;
 } */
-@media (min-width: 200px) and (max-width:390px){
+@media (min-width: 200px) and (max-width:300px){
     .top {
         display: block;
-        height: 810px;
-        width: 450px;
+        height: 59rem;
+        width: 33rem;
         margin: 10px 2px;
         padding: 2px 2px;
         /* border: 2px solid black; */
     }
     .top .top-text {
         /* border: 2px solid black; */
-        width: 350px;
-        height: 350px;
+        width: 32rem;
+        height: 32rem;
         text-align: left;
         padding: 0px 10px;
-        font-size: 20px;
+        font-size: 2rem;
     }
     .top .top-img {
         /* border: 2px solid blue; */
         position: absolute;
-        left: 5%;;
-        width: 390px;
-        height: 350px;
+        left: 0.8rem;
+        width: 32rem;
+        height: 26rem;
     }
     .top .top-img img{
-        width: 390px;
-        height: 350px;
+        width: 32rem;
+        height: 26rem;
     }
     .mid-app{
-        width: 400px;
-        height: 1400px;
+        width: 34rem;
+        height: 84rem;
         /* border: 2px solid yellow; */
     }
     .mid-app .mid-text{
@@ -90,37 +90,37 @@ body {
         font-size: 32px;
     }
 }
-@media (min-width: 390px) and (max-width:600px){
+@media (min-width: 300px) and (max-width:400px){
     .top {
         display: block;
-        height: 810px;
-        width: 450px;
+        height: 59rem;
+        width: 33rem;
         margin: 10px 2px;
         padding: 2px 2px;
         /* border: 2px solid black; */
     }
     .top .top-text {
         /* border: 2px solid black; */
-        width: 350px;
-        height: 350px;
+        width: 32rem;
+        height: 32rem;
         text-align: left;
         padding: 0px 10px;
-        font-size: 20px;
+        font-size: 2rem;
     }
     .top .top-img {
         /* border: 2px solid blue; */
         position: absolute;
-        left: 5%;;
-        width: 390px;
-        height: 350px;
+        left: 0.8rem;
+        width: 32rem;
+        height: 26rem;
     }
     .top .top-img img{
-        width: 390px;
-        height: 350px;
+        width: 32rem;
+        height: 26rem;
     }
     .mid-app{
-        width: 400px;
-        height: 1400px;
+        width: 34rem;
+        height: 84rem;
         /* border: 2px solid yellow; */
     }
     .mid-app .mid-text{
@@ -131,19 +131,145 @@ body {
         font-size: 32px;
     }
 }
-@media (min-width: 600px) and (max-width:810px){
+@media (min-width: 400px) and (max-width:500px){
     .top {
         display: block;
-        height: 810px;
-        width: 750px;
+        height: 60rem;
+        width: 31rem;
+        margin: 10px 2px;
+        padding: 2px 2px;
+        /* border: 2px solid black; */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 29rem;
+        height: 29rem;
+        text-align: left;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 30rem;
+        height: 30rem;
+    }
+    .top .top-img img{
+        width: 30rem;
+        height: 30rem;
+    }
+    .mid-app{
+        width: 33rem;
+        height: 84rem;
+        /* border: 2px solid yellow; */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 32rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 500px) and (max-width:600px){
+    .top {
+        display: block;
+        height: 62rem;
+        width: 37rem;
+        margin: 10px 2px;
+        padding: 2px 2px;
+        /* border: 2px solid black; */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 36rem;
+        height: 29rem;
+        text-align: left;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 36rem;
+        height: 32rem;
+    }
+    .top .top-img img{
+        width: 36rem;
+        height: 32rem;
+    }
+    .mid-app{
+        width: 38rem;
+        height: 84rem;
+        /* border: 2px solid yellow; */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 38rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 600px) and (max-width:700px){
+    .top {
+        display: block;
+        height: 62rem;
+        width: 46rem;
+        margin: 10px 2px;
+        padding: 2px 2px;
+        /* border: 2px solid black; */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 45rem;
+        height: 29rem;
+        text-align: left;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 45rem;
+        height: 32rem;
+    }
+    .top .top-img img{
+        width: 45rem;
+        height: 32rem;
+    }
+    .mid-app{
+        width: 46rem;
+        height: 84rem;
+        /* border: 2px solid yellow; */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 46rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 700px) and (max-width:800px){
+    .top {
+        display: block;
+        height: 60rem;
+        width: 65rem;
         margin: 40px 2px;
         padding: 20px 2px;
         /* border: 2px solid black; */
     }
     .top .top-text {
         /* border: 2px solid black; */
-        width: 490px;
-        height: 350px;
+        width: 63rem;
+        height: 25rem;
         text-align: left;
         padding: 10px 10px;
         font-size: 30px;
@@ -151,40 +277,41 @@ body {
     .top .top-img {
         /* border: 2px solid blue; */
         position: absolute;
-        left: 5%;
-        width: 590px;
-        height: 420px;
+        left: 0.8rem;
+        width: 63rem;
+        height: 34rem;
     }
     .top .top-img img{
-        width: 590px;
-        height: 400px;
+        width: 62rem;
+        height: 33rem;
     }
     .mid-app{
-        width: 700px;
-        height: 1400px;
-        /* border: 2px solid blue; */
+        width: 66rem;
+        height: 90rem;
+        /* border: 2px solid rgb(42, 42, 42); */
     }
     .mid-app .mid-text{
         text-align: center;
         border: 2px solid red;
+        width: 65rem;
     }
     .mid-app .mid-text h1{
-        font-size: 32px;
+        font-size: 2rem;
     }
 }
-@media (min-width: 810px) and (max-width:1200px){
+@media (min-width: 800px) and (max-width:900px){
     .top {
         display: block;
-        height: 810px;
-        width: 1000px;
+        height: 60rem;
+        width: 65rem;
         margin: 40px 2px;
         padding: 20px 2px;
         /* border: 2px solid black; */
     }
     .top .top-text {
         /* border: 2px solid black; */
-        width: 890px;
-        height: 350px;
+        width: 63rem;
+        height: 25rem;
         text-align: left;
         padding: 10px 10px;
         font-size: 30px;
@@ -192,24 +319,151 @@ body {
     .top .top-img {
         /* border: 2px solid blue; */
         position: absolute;
-        left: 2%;
-        width: 790px;
-        height: 420px;
+        left: 0.8rem;
+        width: 63rem;
+        height: 34rem;
     }
     .top .top-img img{
-        width: 780px;
-        height: 400px;
+        width: 62rem;
+        height: 33rem;
     }
     .mid-app{
-        width: 1000px;
-        height: 1400px;
-        /* border: 2px solid yellow; */
+        width: 66rem;
+        height: 90rem;
+        /* border: 2px solid rgb(42, 42, 42); */
     }
     .mid-app .mid-text{
         text-align: center;
         border: 2px solid red;
+        width: 65rem;
     }
     .mid-app .mid-text h1{
-        font-size: 32px;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 900px) and (max-width:1000px){
+    .top {
+        display: block;
+        height: 60rem;
+        width: 65rem;
+        margin: 40px 2px;
+        padding: 20px 2px;
+        /* border: 2px solid black; */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 63rem;
+        height: 25rem;
+        text-align: left;
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 63rem;
+        height: 34rem;
+    }
+    .top .top-img img{
+        width: 62rem;
+        height: 33rem;
+    }
+    .mid-app{
+        width: 66rem;
+        height: 90rem;
+        /* border: 2px solid rgb(42, 42, 42); */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 65rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1000px) and (max-width:1100px){
+    .top {
+        display: block;
+        height: 61rem;
+        width: 68rem;
+        margin: 40px 2px;
+        padding: 20px 2px;
+        /* border: 2px solid black; */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 66rem;
+        height: 25rem;
+        text-align: left;
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 67rem;
+        height: 34rem;
+    }
+    .top .top-img img{
+        width: 67rem;
+        height: 34rem;
+    }
+    .mid-app{
+        width: 69rem;
+        height: 90rem;
+        /* border: 2px solid rgb(42, 42, 42); */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 69rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1100px) and (max-width:1200px){
+    .top {
+        display: block;
+        height: 67rem;
+        width: 75rem;
+        margin: 40px 2px;
+        padding: 20px 2px;
+        /* border: 2px solid rgb(54, 1, 1); */
+    }
+    .top .top-text {
+        /* border: 2px solid black; */
+        width: 73rem;
+        height: 25rem;
+        text-align: left;
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    .top .top-img {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 0.8rem;
+        width: 74rem;
+        height: 40rem;
+    }
+    .top .top-img img{
+        width: 74rem;
+        height: 40rem;
+    }
+    .mid-app{
+        width: 75rem;
+        height: 90rem;
+        /* border: 2px solid rgb(42, 42, 42); */
+    }
+    .mid-app .mid-text{
+        text-align: center;
+        border: 2px solid red;
+        width: 75rem;
+    }
+    .mid-app .mid-text h1{
+        font-size: 2rem;
     }
 }

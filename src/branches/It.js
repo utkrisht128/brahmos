@@ -75,14 +75,14 @@ export default function It() {
       <h1 className="sem">Semester 2</h1>
       <Boxes
         img2={English}
-        img3={Maths}
-        img4={Chemistry}
+        img3={Chemistry}
+        img4={Maths}
         link1={"/English-me"}
         name1={"English"}
         link2={"/Chemistry-me"}
         name2={"Chemistry"}
-        link3={"/Physics-me"}
-        name3={"Physics"}
+        link3={"/Maths2-me"}
+        name3={"Maths-2"}
       />
       <Boxes
         img2={DLD}
@@ -112,7 +112,7 @@ export default function It() {
         link1={"/ProbabilityTheoryandStochasticProcess-ece"}
         name1={"Probability and Stochastic Processes"}
         img2={OptPrinciple}
-        link2={"/OptimizationPrinciplesandTechniques"}
+        link2={"/OptimizationPrinciplesandTechniques-it"}
         name2={"Optimization Principles and Techniques"}
       />
       <h1 className="sem">Semester 4</h1>
@@ -120,19 +120,19 @@ export default function It() {
         img2={OperatingSys}
         img3={DAA}
         img4={Software}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/Operatingsystems-it"}
         name1={"Operating systems"}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/DesignandAnalysisofAlgorithm-it"}
         name2={"Design and Analysis of Algorithm"}
-        link3={"/OptimizationPrinciplesandTechniques"}
+        link3={"/SoftwareEngineering-it"}
         name3={"Software Engineering"}
       />
       <DuoBox
         img1={CompNetwork}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/ComputerNetworks-it"}
         name1={"Computer Networks"}
         img2={AnalogDC}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/AnalogandDigitalCommunication-it"}
         name2={"Analog and Digital Communication"}
       />
       <h1 className="sem">Semester 5</h1>
@@ -140,27 +140,27 @@ export default function It() {
         img2={TOC}
         img3={Cloud}
         img4={DataWare}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/TheoryofComputation-it"}
         name1={"Theory of Computation"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/CloudComputing-it"}
         name2={"Cloud Computing"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/DataWarehouseandData-it"}
         name3={"Data Warehouse and Data"}
       />
       <Boxes
         img2={SoftComp}
         img3={NumberTC}
         img4={AI}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/SoftComputing-it"}
         name1={"Soft Computing"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/NumberTheoryandCrpytography-it"}
         name2={"Number Theory and Crpytography"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/ArtificialIntelligence-it"}
         name3={"Artificial Intelligence"}
       />
       <SoloBox
         img1={MobileC}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/MobileComputing-it"}
         name1={"Mobile Computing"}
       />
       <h1 className="sem">Semester 6</h1>
@@ -168,22 +168,22 @@ export default function It() {
         img2={NND}
         img3={PCC}
         img4={WebT}
-        link1={"/OptimizationPrinciplesandTechniques"}
-        name1={"Network and networking devices W/S"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/NetworkandNetworkingDevices-it"}
+        name1={"Network and Networking Devices W/S"}
+        link2={"/CompilerandTranslatorDesign-it"}
         name2={"Compiler and Translator Design"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/WebTechnology-it"}
         name3={"Web Technology"}
       />
       <Boxes
         img2={ML}
         img3={BigData}
         img4={ANN}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/MachineLearningandDataAnalytics-it"}
         name1={"Machine Learning and Data Analytics"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/BigDataScienceandTools-it"}
         name2={"Big Data Science and tools"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/ArtificialNeuralNetworks-it"}
         name3={"Artificial Neural Networks"}
       />
       <h1 className="sem">Semester 7</h1>
@@ -191,19 +191,19 @@ export default function It() {
         img2={CompV}
         img3={PatternAI}
         img4={SocialNMA}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/MachineVision-it"}
         name1={"Machine Vision"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/PatternAnalysisandRecommenderSystem-it"}
         name2={"Pattern Analysis and Recommender System"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link3={"/SocialNetworkMiningandAnalysis-it"}
         name3={"Social Network Mining and Analysis"}
       />
       <DuoBox
         img1={DistributedS}
-        link1={"/ComputerArchitectureandOrganization-cse"}
+        link1={"/DistributedSystem-it"}
         name1={"Distributed System"}
         img2={CyberL}
-        link2={"/ProbabilityTheoryandStochasticProcess-ece"}
+        link2={"/CyberLaws-it"}
         name2={"Cyber Laws"}
       />
       <h1 className="sem">Semester 8</h1>
@@ -211,16 +211,16 @@ export default function It() {
         img2={CyberS}
         img3={HadoopS}
         img4={DRN}
-        link1={"/OptimizationPrinciplesandTechniques"}
+        link1={"/CyberSecurity-it"}
         name1={"Cyber Security"}
-        link2={"/ComputerArchitectureandOrganization-cse"}
+        link2={"/HadoopandSpark-it"}
         name2={"Hadoop and Spark"}
-        link3={"/ProbabilityTheoryandStochasticProcess-ece"}
-        name3={"Deep and Reinforcement networks"}
+        link3={"/DeepandReinforcementNetworks-it"}
+        name3={"Deep and Reinforcement Networks"}
       />
       <SoloBox
         img1={CDS}
-        link1={"/ElectronicsDevices&Circuits-ice"}
+        link1={"/ComputationalDataScience-it"}
         name1={"Computational Data Science"}
       />
       
